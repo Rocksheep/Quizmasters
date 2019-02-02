@@ -827,3 +827,963 @@ unison: started
 [2019-02-01 10:24:05 +0100] Sync Log:  [END] Updating file .git/config
 [2019-02-01 10:24:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:04.61 on 01 Feb 2019
 [2019-02-01 10:24:05 +0100] Sync Log:  Synchronization complete at 10:24:04  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:15.99 on 01 Feb 2019
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/03 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/03
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/04 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/04
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/06 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/06
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/0a from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/0a
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/0d from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/0d
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/0e from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/0e
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/15 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/15
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/16 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/16
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/22 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/22
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/23 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/23
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/27 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/27
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/28 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/28
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/34 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/34
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/35 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/35
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/3c from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/3c
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/40 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/40
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/49 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/49
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/4e from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/4e
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/4f from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/4f
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/59 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/59
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/5a from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/5a
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/5c from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/5c
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/5e from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/5e
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/61 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/61
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/6c from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/6c
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/6f from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/6f
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/77 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/77
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/78 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/78
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/7d from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/7d
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/7e from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/7e
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/84 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/84
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/8b from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/8b
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/96 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/96
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/97 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/97
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/9b from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/9b
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/9c from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/9c
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/a3 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/a3
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/a4 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/a4
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/a8 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/a8
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/b2 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/b2
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/b4 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/b4
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/bb from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/bb
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/c3 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/c3
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/cf from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/cf
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/d0 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/d0
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/d6 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/d6
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/e4 from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/e4
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/ec from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/ec
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/fa from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/fa
+[2019-02-01 10:24:16 +0100] Sync Log:  [BGN] Copying .git/objects/fb from /host_sync to /app_sync
+[2019-02-01 10:24:16 +0100] Sync Log:  [END] Copying .git/objects/fb
+[2019-02-01 10:24:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:16.14 on 01 Feb 2019
+[2019-02-01 10:24:16 +0100] Sync Log:  Synchronization complete at 10:24:16  (50 items transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:17.38 on 01 Feb 2019
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/index from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/index
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/01 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/01
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/07 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/07
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/08 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/08
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/19 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/19
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/1b from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/1b
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/20 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/20
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/29 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/29
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/2e from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/2e
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/32 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/32
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/3f from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/3f
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/45 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/45
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/4c from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/4c
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/54 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/54
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/5f from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/5f
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/67 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/67
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/68 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/68
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/6a from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/6a
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/72 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/72
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/73 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/73
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/75 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/75
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/76 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/76
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/8a from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/8a
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/8e from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/8e
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/8f from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/8f
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/91 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/91
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/99 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/99
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/a0 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/a0
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/b0 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/b0
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/b5 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/b5
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/b6 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/b6
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/b7 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/b7
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/c1 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/c1
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/c6 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/c6
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/cd from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/cd
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/d4 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/d4
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/da from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/da
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/db from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/db
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/e3 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/e3
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/e5 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/e5
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/e6 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/e6
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/eb from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/eb
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/ef from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/ef
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/f1 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/f1
+[2019-02-01 10:24:18 +0100] Sync Log:  [BGN] Copying .git/objects/f4 from /host_sync to /app_sync
+[2019-02-01 10:24:18 +0100] Sync Log:  [END] Copying .git/objects/f4
+[2019-02-01 10:24:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:17.51 on 01 Feb 2019
+[2019-02-01 10:24:18 +0100] Sync Log:  Synchronization complete at 10:24:17  (45 items transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:24 +0100] Sync Log:  Synchronization complete at 10:24:23  (0 item transferred, 1 skipped, 0 failed)
+[2019-02-01 10:24:24 +0100] Sync Log:    skipped: .git/index.lock (Error in digesting /host_sync/.git/index.lock:
+[2019-02-01 10:24:24 +0100] Sync Log:  /host_sync/.git/index.lock: No such file or directory)
+[2019-02-01 10:24:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:25.24 on 01 Feb 2019
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/COMMIT_EDITMSG from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/COMMIT_EDITMSG
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Updating file .git/index from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Updating file .git/index
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/logs from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/logs
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/01/e86da1956bf6593c9d096187b8615493992779 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/01/e86da1956bf6593c9d096187b8615493992779
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/11 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/11
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/18 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/18
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/21 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/21
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/23/60c47a6f50ab7f3ad069d69de45a5b77ff535c from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/23/60c47a6f50ab7f3ad069d69de45a5b77ff535c
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/28/3e6b533596a396df2df95ed7dcf701637e1f76 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/28/3e6b533596a396df2df95ed7dcf701637e1f76
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/29/d621237363cae30c4bdbdf4183d53b5e8678cd from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/29/d621237363cae30c4bdbdf4183d53b5e8678cd
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/2f from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/2f
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/31 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/31
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/33 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/33
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/36 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/36
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/39 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/39
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/52 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/52
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/60 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/60
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/65 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/65
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/66 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/66
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/69 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/69
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/6a/2f60a577ad347266dd3b884c128f64089625c4 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/6a/2f60a577ad347266dd3b884c128f64089625c4
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/6b from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/6b
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/6e from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/6e
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/70 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/70
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/72/051eef3c5804b4b5a7478e18938e4d43c1622d from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/72/051eef3c5804b4b5a7478e18938e4d43c1622d
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/76/c2903210d9950490d8500a96952bf6ef604146 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/76/c2903210d9950490d8500a96952bf6ef604146
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/83 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/83
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/84/0bd7954d716c5c6df79c818416afcba2f6fc92 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/84/0bd7954d716c5c6df79c818416afcba2f6fc92
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/88 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/88
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/8a/ccd911e718853e524da7b323de2a133efbf78a from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/8a/ccd911e718853e524da7b323de2a133efbf78a
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/8d from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/8d
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/94 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/94
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/ad from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/ad
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/b2/f3899aa671760c09fbb6cc90a4df867e454583 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/b2/f3899aa671760c09fbb6cc90a4df867e454583
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/c9 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/c9
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/ce from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/ce
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/d0/4167ad1f9324694d609547e73725f995ef0357 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/d0/4167ad1f9324694d609547e73725f995ef0357
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/d8 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/d8
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/e3/eb3b64b549108bc4ef9107f718cada7315c1a3 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/e3/eb3b64b549108bc4ef9107f718cada7315c1a3
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/e5/8d3cae3c70193f9531f2e7cbbbcc92cb4b3767 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/e5/8d3cae3c70193f9531f2e7cbbbcc92cb4b3767
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/e6/506a60dc3f064d5731d483277a5115655067d3 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/e6/506a60dc3f064d5731d483277a5115655067d3
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/ef/4d2a13b4c52257ef89e7d16a6ceb4623361d58 from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/ef/4d2a13b4c52257ef89e7d16a6ceb4623361d58
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/objects/ff from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/objects/ff
+[2019-02-01 10:24:26 +0100] Sync Log:  [BGN] Copying .git/refs/heads/master from /host_sync to /app_sync
+[2019-02-01 10:24:26 +0100] Sync Log:  [END] Copying .git/refs/heads/master
+[2019-02-01 10:24:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:25.40 on 01 Feb 2019
+[2019-02-01 10:24:26 +0100] Sync Log:  Synchronization complete at 10:24:25  (44 items transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:35.61 on 01 Feb 2019
+[2019-02-01 10:24:36 +0100] Sync Log:  [BGN] Copying .git/FETCH_HEAD from /host_sync to /app_sync
+[2019-02-01 10:24:36 +0100] Sync Log:  [END] Copying .git/FETCH_HEAD
+[2019-02-01 10:24:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:35.61 on 01 Feb 2019
+[2019-02-01 10:24:36 +0100] Sync Log:  Synchronization complete at 10:24:35  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:36.68 on 01 Feb 2019
+[2019-02-01 10:24:37 +0100] Sync Log:  [BGN] Copying .git/ORIG_HEAD from /host_sync to /app_sync
+[2019-02-01 10:24:37 +0100] Sync Log:  [END] Copying .git/ORIG_HEAD
+[2019-02-01 10:24:37 +0100] Sync Log:  [BGN] Copying .git/logs/refs/remotes from /host_sync to /app_sync
+[2019-02-01 10:24:37 +0100] Sync Log:  [END] Copying .git/logs/refs/remotes
+[2019-02-01 10:24:37 +0100] Sync Log:  [BGN] Copying .git/objects/b7/92d0759174221fccdb567fb8bb647d504c6cc8 from /host_sync to /app_sync
+[2019-02-01 10:24:37 +0100] Sync Log:  [END] Copying .git/objects/b7/92d0759174221fccdb567fb8bb647d504c6cc8
+[2019-02-01 10:24:37 +0100] Sync Log:  [BGN] Copying .git/objects/bf from /host_sync to /app_sync
+[2019-02-01 10:24:37 +0100] Sync Log:  [END] Copying .git/objects/bf
+[2019-02-01 10:24:37 +0100] Sync Log:  [BGN] Copying .git/objects/f2 from /host_sync to /app_sync
+[2019-02-01 10:24:37 +0100] Sync Log:  [END] Copying .git/objects/f2
+[2019-02-01 10:24:37 +0100] Sync Log:  [BGN] Copying .git/refs/remotes from /host_sync to /app_sync
+[2019-02-01 10:24:37 +0100] Sync Log:  [END] Copying .git/refs/remotes
+[2019-02-01 10:24:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:36.69 on 01 Feb 2019
+[2019-02-01 10:24:37 +0100] Sync Log:  Synchronization complete at 10:24:36  (6 items transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:48.97 on 01 Feb 2019
+[2019-02-01 10:24:49 +0100] Sync Log:  [BGN] Updating file .git/index from /host_sync to /app_sync
+[2019-02-01 10:24:49 +0100] Sync Log:  [END] Updating file .git/index
+[2019-02-01 10:24:49 +0100] Sync Log:  [BGN] Updating file .git/logs/HEAD from /host_sync to /app_sync
+[2019-02-01 10:24:49 +0100] Sync Log:  [END] Updating file .git/logs/HEAD
+[2019-02-01 10:24:49 +0100] Sync Log:  [BGN] Updating file .git/logs/refs/heads/master from /host_sync to /app_sync
+[2019-02-01 10:24:49 +0100] Sync Log:  [END] Updating file .git/logs/refs/heads/master
+[2019-02-01 10:24:49 +0100] Sync Log:  [BGN] Copying .git/objects/62 from /host_sync to /app_sync
+[2019-02-01 10:24:49 +0100] Sync Log:  [END] Copying .git/objects/62
+[2019-02-01 10:24:49 +0100] Sync Log:  [BGN] Copying .git/objects/76/8f2854d50c2caf1abc6cc52a964ad1b2f6279c from /host_sync to /app_sync
+[2019-02-01 10:24:49 +0100] Sync Log:  [END] Copying .git/objects/76/8f2854d50c2caf1abc6cc52a964ad1b2f6279c
+[2019-02-01 10:24:49 +0100] Sync Log:  [BGN] Updating file .git/refs/heads/master from /host_sync to /app_sync
+[2019-02-01 10:24:49 +0100] Sync Log:  [END] Updating file .git/refs/heads/master
+[2019-02-01 10:24:49 +0100] Sync Log:  [BGN] Copying LICENSE from /host_sync to /app_sync
+[2019-02-01 10:24:49 +0100] Sync Log:  [END] Copying LICENSE
+[2019-02-01 10:24:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:49.00 on 01 Feb 2019
+[2019-02-01 10:24:49 +0100] Sync Log:  Synchronization complete at 10:24:49  (7 items transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:55.92 on 01 Feb 2019
+[2019-02-01 10:24:56 +0100] Sync Log:  [BGN] Updating file .git/logs/refs/remotes/origin/master from /host_sync to /app_sync
+[2019-02-01 10:24:56 +0100] Sync Log:  [END] Updating file .git/logs/refs/remotes/origin/master
+[2019-02-01 10:24:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:55.92 on 01 Feb 2019
+[2019-02-01 10:24:56 +0100] Sync Log:  Synchronization complete at 10:24:55  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-01 10:24:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:56.95 on 01 Feb 2019
+[2019-02-01 10:24:57 +0100] Sync Log:  [BGN] Updating file .git/refs/remotes/origin/master from /host_sync to /app_sync
+[2019-02-01 10:24:57 +0100] Sync Log:  [END] Updating file .git/refs/remotes/origin/master
+[2019-02-01 10:24:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:56.95 on 01 Feb 2019
+[2019-02-01 10:24:57 +0100] Sync Log:  Synchronization complete at 10:24:56  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync appdata
+          ok  appdata container still running, restarting unison in container
+     command  docker exec appdata supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of appdata
+     success  Sync container started
+     success  Showing unison logs from your sync container: appdata
+[2019-02-01 19:39:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:55.92 on 01 Feb 2019
+[2019-02-01 19:39:15 +0100] Sync Log:  [BGN] Updating file .git/logs/refs/remotes/origin/master from /host_sync to /app_sync
+[2019-02-01 19:39:15 +0100] Sync Log:  [END] Updating file .git/logs/refs/remotes/origin/master
+[2019-02-01 19:39:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:55.92 on 01 Feb 2019
+[2019-02-01 19:39:15 +0100] Sync Log:  Synchronization complete at 10:24:55  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-01 19:39:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 10:24:56.95 on 01 Feb 2019
+[2019-02-01 19:39:15 +0100] Sync Log:  [BGN] Updating file .git/refs/remotes/origin/master from /host_sync to /app_sync
+[2019-02-01 19:39:15 +0100] Sync Log:  [END] Updating file .git/refs/remotes/origin/master
+[2019-02-01 19:39:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 10:24:56.95 on 01 Feb 2019
+[2019-02-01 19:39:15 +0100] Sync Log:  Synchronization complete at 10:24:56  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-01 19:39:21 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:39:20.94 on 01 Feb 2019
+[2019-02-01 19:39:21 +0100] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2019-02-01 19:39:21 +0100] Sync Log:  Failed: The source file /host_sync/.docker-sync/daemon.log
+[2019-02-01 19:39:21 +0100] Sync Log:  has been modified during synchronization.  Transfer aborted.
+[2019-02-01 19:39:21 +0100] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2019-02-01 19:39:21 +0100] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2019-02-01 19:39:21 +0100] Sync Log:  [BGN] Copying .idea/vcs.xml from /host_sync to /app_sync
+[2019-02-01 19:39:21 +0100] Sync Log:  [END] Copying .idea/vcs.xml
+[2019-02-01 19:39:21 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-01 19:39:21 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-01 19:39:21 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:39:20.96 on 01 Feb 2019
+[2019-02-01 19:39:21 +0100] Sync Log:  Synchronization incomplete at 19:39:20  (3 items transferred, 0 skipped, 1 failed)
+[2019-02-01 19:39:21 +0100] Sync Log:    failed: .docker-sync/daemon.log
+[2019-02-01 19:39:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:39:22.99 on 01 Feb 2019
+[2019-02-01 19:39:23 +0100] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2019-02-01 19:39:23 +0100] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2019-02-01 19:39:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:39:22.99 on 01 Feb 2019
+[2019-02-01 19:39:23 +0100] Sync Log:  Synchronization complete at 19:39:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 17:34:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:34:29.15 on 02 Feb 2019
+[2019-02-02 17:34:30 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:34:30 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:34:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:34:29.16 on 02 Feb 2019
+[2019-02-02 17:34:30 +0100] Sync Log:  Synchronization complete at 17:34:29  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 17:36:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:36:21.33 on 02 Feb 2019
+[2019-02-02 17:36:22 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 17:36:22 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 17:36:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:36:21.34 on 02 Feb 2019
+[2019-02-02 17:36:22 +0100] Sync Log:  Synchronization complete at 17:36:21  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 17:36:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:36:41.34 on 02 Feb 2019
+[2019-02-02 17:36:42 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:36:42 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:36:42 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 17:36:42 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 17:36:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:36:41.35 on 02 Feb 2019
+[2019-02-02 17:36:42 +0100] Sync Log:  Synchronization complete at 17:36:41  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 17:36:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:36:49.69 on 02 Feb 2019
+[2019-02-02 17:36:50 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:36:50 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:36:50 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 17:36:50 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 17:36:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:36:49.69 on 02 Feb 2019
+[2019-02-02 17:36:50 +0100] Sync Log:  Synchronization complete at 17:36:49  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 17:37:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:37:13.04 on 02 Feb 2019
+[2019-02-02 17:37:13 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:37:13 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:37:13 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 17:37:13 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 17:37:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:37:13.05 on 02 Feb 2019
+[2019-02-02 17:37:13 +0100] Sync Log:  Synchronization complete at 17:37:13  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 17:37:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:37:18.48 on 02 Feb 2019
+[2019-02-02 17:37:19 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:37:19 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:37:19 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 17:37:19 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 17:37:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:37:18.48 on 02 Feb 2019
+[2019-02-02 17:37:19 +0100] Sync Log:  Synchronization complete at 17:37:18  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 17:37:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:37:26.48 on 02 Feb 2019
+[2019-02-02 17:37:27 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:37:27 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:37:27 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 17:37:27 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 17:37:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:37:26.48 on 02 Feb 2019
+[2019-02-02 17:37:27 +0100] Sync Log:  Synchronization complete at 17:37:26  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 17:37:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:37:39.84 on 02 Feb 2019
+[2019-02-02 17:37:40 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 17:37:40 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 17:37:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:37:39.84 on 02 Feb 2019
+[2019-02-02 17:37:40 +0100] Sync Log:  Synchronization complete at 17:37:39  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 17:38:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:38:53.88 on 02 Feb 2019
+[2019-02-02 17:38:54 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:38:54 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:38:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:38:53.89 on 02 Feb 2019
+[2019-02-02 17:38:54 +0100] Sync Log:  Synchronization complete at 17:38:53  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 17:42:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:42:54.33 on 02 Feb 2019
+[2019-02-02 17:42:55 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 17:42:55 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 17:42:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:42:54.34 on 02 Feb 2019
+[2019-02-02 17:42:55 +0100] Sync Log:  Synchronization complete at 17:42:54  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 18:09:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:09:23.04 on 02 Feb 2019
+[2019-02-02 18:09:23 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 18:09:23 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 18:09:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:09:23.04 on 02 Feb 2019
+[2019-02-02 18:09:23 +0100] Sync Log:  Synchronization complete at 18:09:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:41:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:41:34.00 on 02 Feb 2019
+[2019-02-02 19:41:34 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:41:34 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:41:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:41:34.00 on 02 Feb 2019
+[2019-02-02 19:41:34 +0100] Sync Log:  Synchronization complete at 19:41:34  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:43:25 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:24.64 on 02 Feb 2019
+[2019-02-02 19:43:25 +0100] Sync Log:  [BGN] Copying app/Events from /app_sync to /host_sync
+[2019-02-02 19:43:25 +0100] Sync Log:  [END] Copying app/Events
+[2019-02-02 19:43:25 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:24.65 on 02 Feb 2019
+[2019-02-02 19:43:25 +0100] Sync Log:  Synchronization complete at 19:43:24  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:44:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:59.48 on 02 Feb 2019
+[2019-02-02 19:44:00 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:44:00 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:44:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:59.49 on 02 Feb 2019
+[2019-02-02 19:44:00 +0100] Sync Log:  Synchronization complete at 19:43:59  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:44:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:13.78 on 02 Feb 2019
+[2019-02-02 19:44:14 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:44:14 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:44:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:13.78 on 02 Feb 2019
+[2019-02-02 19:44:14 +0100] Sync Log:  Synchronization complete at 19:44:13  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:46:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:50.54 on 02 Feb 2019
+[2019-02-02 19:46:51 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:46:51 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:46:51 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:46:51 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:46:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:50.54 on 02 Feb 2019
+[2019-02-02 19:46:51 +0100] Sync Log:  Synchronization complete at 19:46:50  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:47:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:47:04.91 on 02 Feb 2019
+[2019-02-02 19:47:05 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:47:05 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:47:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:47:04.91 on 02 Feb 2019
+[2019-02-02 19:47:05 +0100] Sync Log:  Synchronization complete at 19:47:04  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:47:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:47:11.62 on 02 Feb 2019
+[2019-02-02 19:47:12 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:47:12 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:47:12 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:47:12 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:47:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:47:11.63 on 02 Feb 2019
+[2019-02-02 19:47:12 +0100] Sync Log:  Synchronization complete at 19:47:11  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:47:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:47:15.27 on 02 Feb 2019
+[2019-02-02 19:47:16 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:47:16 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:47:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:47:15.28 on 02 Feb 2019
+[2019-02-02 19:47:16 +0100] Sync Log:  Synchronization complete at 19:47:15  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:47:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:47:17.30 on 02 Feb 2019
+[2019-02-02 19:47:18 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:47:18 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:47:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:47:17.31 on 02 Feb 2019
+[2019-02-02 19:47:18 +0100] Sync Log:  Synchronization complete at 19:47:17  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:47:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:47:26.00 on 02 Feb 2019
+[2019-02-02 19:47:26 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:47:26 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:47:26 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:47:26 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:47:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:47:26.01 on 02 Feb 2019
+[2019-02-02 19:47:26 +0100] Sync Log:  Synchronization complete at 19:47:26  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:47:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:47:34.09 on 02 Feb 2019
+[2019-02-02 19:47:34 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:47:34 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:47:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:47:34.10 on 02 Feb 2019
+[2019-02-02 19:47:34 +0100] Sync Log:  Synchronization complete at 19:47:34  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:51:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:51:10.89 on 02 Feb 2019
+[2019-02-02 19:51:11 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:51:11 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:51:11 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:51:11 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:51:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:51:10.90 on 02 Feb 2019
+[2019-02-02 19:51:11 +0100] Sync Log:  Synchronization complete at 19:51:10  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:51:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:51:15.82 on 02 Feb 2019
+[2019-02-02 19:51:16 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:51:16 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:51:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:51:15.82 on 02 Feb 2019
+[2019-02-02 19:51:16 +0100] Sync Log:  Synchronization complete at 19:51:15  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:51:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:51:33.65 on 02 Feb 2019
+[2019-02-02 19:51:34 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:51:34 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:51:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:51:33.65 on 02 Feb 2019
+[2019-02-02 19:51:34 +0100] Sync Log:  Synchronization complete at 19:51:33  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:51:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:51:40.64 on 02 Feb 2019
+[2019-02-02 19:51:41 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:51:41 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:51:41 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:51:41 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:51:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:51:40.65 on 02 Feb 2019
+[2019-02-02 19:51:41 +0100] Sync Log:  Synchronization complete at 19:51:40  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:51:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:51:47.73 on 02 Feb 2019
+[2019-02-02 19:51:48 +0100] Sync Log:  [BGN] Copying storage/framework/views/aa25a1173c3517ee7cf3dfac53bf68d1d31dae3a.php from /app_sync to /host_sync
+[2019-02-02 19:51:48 +0100] Sync Log:  [END] Copying storage/framework/views/aa25a1173c3517ee7cf3dfac53bf68d1d31dae3a.php
+[2019-02-02 19:51:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:51:47.74 on 02 Feb 2019
+[2019-02-02 19:51:48 +0100] Sync Log:  Synchronization complete at 19:51:47  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:51:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:51:48.77 on 02 Feb 2019
+[2019-02-02 19:51:49 +0100] Sync Log:  [BGN] Copying storage/framework/views/4582e0f2e6dcf957a44e90a8f6a6f071cd28b720.php from /app_sync to /host_sync
+[2019-02-02 19:51:49 +0100] Sync Log:  [END] Copying storage/framework/views/4582e0f2e6dcf957a44e90a8f6a6f071cd28b720.php
+[2019-02-02 19:51:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:51:48.78 on 02 Feb 2019
+[2019-02-02 19:51:49 +0100] Sync Log:  Synchronization complete at 19:51:48  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:52:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:52:49.19 on 02 Feb 2019
+[2019-02-02 19:52:50 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:52:50 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:52:50 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 19:52:50 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 19:52:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:52:49.20 on 02 Feb 2019
+[2019-02-02 19:52:50 +0100] Sync Log:  Synchronization complete at 19:52:49  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:53:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:53:05.57 on 02 Feb 2019
+[2019-02-02 19:53:06 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:53:06 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:53:06 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 19:53:06 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 19:53:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:53:05.58 on 02 Feb 2019
+[2019-02-02 19:53:06 +0100] Sync Log:  Synchronization complete at 19:53:05  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:53:20 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:53:19.11 on 02 Feb 2019
+[2019-02-02 19:53:20 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:53:20 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:53:20 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 19:53:20 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 19:53:20 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:53:19.12 on 02 Feb 2019
+[2019-02-02 19:53:20 +0100] Sync Log:  Synchronization complete at 19:53:19  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 19:53:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:53:27.76 on 02 Feb 2019
+[2019-02-02 19:53:28 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 19:53:28 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 19:53:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:53:27.76 on 02 Feb 2019
+[2019-02-02 19:53:28 +0100] Sync Log:  Synchronization complete at 19:53:27  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 19:59:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:59:12.40 on 02 Feb 2019
+[2019-02-02 19:59:12 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 19:59:12 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 19:59:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:59:12.40 on 02 Feb 2019
+[2019-02-02 19:59:12 +0100] Sync Log:  Synchronization complete at 19:59:12  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:01:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:01:24.66 on 02 Feb 2019
+[2019-02-02 20:01:24 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:01:24 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:01:24 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:01:24 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:01:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:01:24.66 on 02 Feb 2019
+[2019-02-02 20:01:24 +0100] Sync Log:  Synchronization complete at 20:01:24  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:01:29 +0100] Sync Log:  Synchronization complete at 20:01:29  (0 item transferred, 1 skipped, 0 failed)
+[2019-02-02 20:01:29 +0100] Sync Log:    skipped: .git/index.lock (Error in digesting /host_sync/.git/index.lock:
+[2019-02-02 20:01:29 +0100] Sync Log:  /host_sync/.git/index.lock: No such file or directory)
+[2019-02-02 20:02:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:02:49.77 on 02 Feb 2019
+[2019-02-02 20:02:49 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:02:49 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:02:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:02:49.77 on 02 Feb 2019
+[2019-02-02 20:02:49 +0100] Sync Log:  Synchronization complete at 20:02:49  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:03:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:00.41 on 02 Feb 2019
+[2019-02-02 20:03:00 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:03:00 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:03:00 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:03:00 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:03:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:00.42 on 02 Feb 2019
+[2019-02-02 20:03:00 +0100] Sync Log:  Synchronization complete at 20:03:00  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:03:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:09.85 on 02 Feb 2019
+[2019-02-02 20:03:09 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:03:09 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:03:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:09.85 on 02 Feb 2019
+[2019-02-02 20:03:09 +0100] Sync Log:  Synchronization complete at 20:03:09  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:03:31 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:30.93 on 02 Feb 2019
+[2019-02-02 20:03:31 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:03:31 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:03:31 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:03:31 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:03:31 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:30.93 on 02 Feb 2019
+[2019-02-02 20:03:31 +0100] Sync Log:  Synchronization complete at 20:03:30  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:03:35 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:35.79 on 02 Feb 2019
+[2019-02-02 20:03:35 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:03:35 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:03:35 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:03:35 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:03:35 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:35.80 on 02 Feb 2019
+[2019-02-02 20:03:35 +0100] Sync Log:  Synchronization complete at 20:03:35  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:03:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:40.84 on 02 Feb 2019
+[2019-02-02 20:03:40 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:03:40 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:03:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:40.84 on 02 Feb 2019
+[2019-02-02 20:03:40 +0100] Sync Log:  Synchronization complete at 20:03:40  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:03:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:41.87 on 02 Feb 2019
+[2019-02-02 20:03:41 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:03:41 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:03:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:41.87 on 02 Feb 2019
+[2019-02-02 20:03:42 +0100] Sync Log:  Synchronization complete at 20:03:41  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:03:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:58.67 on 02 Feb 2019
+[2019-02-02 20:03:58 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:03:58 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:03:58 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:03:58 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:03:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:58.68 on 02 Feb 2019
+[2019-02-02 20:03:58 +0100] Sync Log:  Synchronization complete at 20:03:58  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:04:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:12.61 on 02 Feb 2019
+[2019-02-02 20:04:12 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:04:12 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:04:12 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:04:12 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:04:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:12.62 on 02 Feb 2019
+[2019-02-02 20:04:12 +0100] Sync Log:  Synchronization complete at 20:04:12  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:04:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:23.39 on 02 Feb 2019
+[2019-02-02 20:04:23 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:04:23 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:04:23 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:04:23 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:04:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:23.40 on 02 Feb 2019
+[2019-02-02 20:04:23 +0100] Sync Log:  Synchronization complete at 20:04:23  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:04:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:36.92 on 02 Feb 2019
+[2019-02-02 20:04:37 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:04:37 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:04:37 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:04:37 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:04:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:36.93 on 02 Feb 2019
+[2019-02-02 20:04:37 +0100] Sync Log:  Synchronization complete at 20:04:36  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:04:45 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:44.91 on 02 Feb 2019
+[2019-02-02 20:04:45 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:04:45 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:04:45 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:04:45 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:04:45 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:44.91 on 02 Feb 2019
+[2019-02-02 20:04:45 +0100] Sync Log:  Synchronization complete at 20:04:44  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:04:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:47.95 on 02 Feb 2019
+[2019-02-02 20:04:48 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:04:48 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:04:48 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:04:48 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:04:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:47.96 on 02 Feb 2019
+[2019-02-02 20:04:48 +0100] Sync Log:  Synchronization complete at 20:04:47  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:04:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:54.95 on 02 Feb 2019
+[2019-02-02 20:04:55 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:04:55 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:04:55 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:04:55 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:04:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:54.96 on 02 Feb 2019
+[2019-02-02 20:04:55 +0100] Sync Log:  Synchronization complete at 20:04:54  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:04:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:58.34 on 02 Feb 2019
+[2019-02-02 20:04:58 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:04:58 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:04:58 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:04:58 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:04:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:58.35 on 02 Feb 2019
+[2019-02-02 20:04:58 +0100] Sync Log:  Synchronization complete at 20:04:58  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:05:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:05:01.39 on 02 Feb 2019
+[2019-02-02 20:05:01 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:05:01 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:05:01 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:05:01 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:05:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:05:01.39 on 02 Feb 2019
+[2019-02-02 20:05:01 +0100] Sync Log:  Synchronization complete at 20:05:01  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:05:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:05:04.49 on 02 Feb 2019
+[2019-02-02 20:05:04 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:05:04 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:05:04 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:05:04 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:05:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:05:04.50 on 02 Feb 2019
+[2019-02-02 20:05:04 +0100] Sync Log:  Synchronization complete at 20:05:04  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:05:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:05:13.03 on 02 Feb 2019
+[2019-02-02 20:05:13 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:05:13 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:05:13 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 20:05:13 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 20:05:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:05:13.04 on 02 Feb 2019
+[2019-02-02 20:05:13 +0100] Sync Log:  Synchronization complete at 20:05:13  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:05:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:05:34.76 on 02 Feb 2019
+[2019-02-02 20:05:34 +0100] Sync Log:  [BGN] Copying storage/logs/laravel-2019-02-02.log from /app_sync to /host_sync
+[2019-02-02 20:05:34 +0100] Sync Log:  [END] Copying storage/logs/laravel-2019-02-02.log
+[2019-02-02 20:05:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:05:34.76 on 02 Feb 2019
+[2019-02-02 20:05:34 +0100] Sync Log:  Synchronization complete at 20:05:34  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:05:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:05:41.73 on 02 Feb 2019
+[2019-02-02 20:05:41 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:05:41 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:05:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:05:41.74 on 02 Feb 2019
+[2019-02-02 20:05:41 +0100] Sync Log:  Synchronization complete at 20:05:41  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:06:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:06:12.00 on 02 Feb 2019
+[2019-02-02 20:06:12 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:06:12 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:06:12 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:06:12 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:06:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:06:12.01 on 02 Feb 2019
+[2019-02-02 20:06:12 +0100] Sync Log:  Synchronization complete at 20:06:12  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:06:39 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:06:39.54 on 02 Feb 2019
+[2019-02-02 20:06:39 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:06:39 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:06:39 +0100] Sync Log:  [BGN] Updating file tests/Unit/QuizTest.php from /host_sync to /app_sync
+[2019-02-02 20:06:39 +0100] Sync Log:  [END] Updating file tests/Unit/QuizTest.php
+[2019-02-02 20:06:39 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:06:39.55 on 02 Feb 2019
+[2019-02-02 20:06:39 +0100] Sync Log:  Synchronization complete at 20:06:39  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:06:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:06:50.84 on 02 Feb 2019
+[2019-02-02 20:06:50 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:06:50 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:06:50 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:06:50 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:06:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:06:50.84 on 02 Feb 2019
+[2019-02-02 20:06:50 +0100] Sync Log:  Synchronization complete at 20:06:50  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:07:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:07:04.98 on 02 Feb 2019
+[2019-02-02 20:07:05 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:07:05 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:07:05 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:07:05 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:07:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:07:04.99 on 02 Feb 2019
+[2019-02-02 20:07:05 +0100] Sync Log:  Synchronization complete at 20:07:05  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:07:08 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:07:08.47 on 02 Feb 2019
+[2019-02-02 20:07:08 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:07:08 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:07:08 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:07:08 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:07:08 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:07:08.48 on 02 Feb 2019
+[2019-02-02 20:07:08 +0100] Sync Log:  Synchronization complete at 20:07:08  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:07:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:07:13.04 on 02 Feb 2019
+[2019-02-02 20:07:13 +0100] Sync Log:  [BGN] Updating file storage/logs/laravel-2019-02-02.log from /app_sync to /host_sync
+[2019-02-02 20:07:13 +0100] Sync Log:  [END] Updating file storage/logs/laravel-2019-02-02.log
+[2019-02-02 20:07:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:07:13.06 on 02 Feb 2019
+[2019-02-02 20:07:13 +0100] Sync Log:  Synchronization complete at 20:07:13  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:07:25 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:07:25.26 on 02 Feb 2019
+[2019-02-02 20:07:25 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:07:25 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:07:25 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:07:25 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:07:25 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:07:25.26 on 02 Feb 2019
+[2019-02-02 20:07:25 +0100] Sync Log:  Synchronization complete at 20:07:25  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:07:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:07:52.16 on 02 Feb 2019
+[2019-02-02 20:07:52 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:07:52 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:07:52 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:07:52 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:07:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:07:52.16 on 02 Feb 2019
+[2019-02-02 20:07:52 +0100] Sync Log:  Synchronization complete at 20:07:52  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:07:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:07:54.19 on 02 Feb 2019
+[2019-02-02 20:07:54 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:07:54 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:07:54 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:07:54 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:07:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:07:54.20 on 02 Feb 2019
+[2019-02-02 20:07:54 +0100] Sync Log:  Synchronization complete at 20:07:54  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:08:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:08:02.60 on 02 Feb 2019
+[2019-02-02 20:08:02 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:08:02 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:08:02 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:08:02 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:08:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:08:02.61 on 02 Feb 2019
+[2019-02-02 20:08:02 +0100] Sync Log:  Synchronization complete at 20:08:02  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:08:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:08:16.01 on 02 Feb 2019
+[2019-02-02 20:08:16 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:08:16 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:08:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:08:16.01 on 02 Feb 2019
+[2019-02-02 20:08:16 +0100] Sync Log:  Synchronization complete at 20:08:16  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:08:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:08:46.08 on 02 Feb 2019
+[2019-02-02 20:08:46 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:08:46 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:08:46 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:08:46 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:08:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:08:46.09 on 02 Feb 2019
+[2019-02-02 20:08:46 +0100] Sync Log:  Synchronization complete at 20:08:46  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:15:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:15:28.98 on 02 Feb 2019
+[2019-02-02 20:15:29 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:15:29 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:15:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:15:28.99 on 02 Feb 2019
+[2019-02-02 20:15:29 +0100] Sync Log:  Synchronization complete at 20:15:29  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:16:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:16:06.96 on 02 Feb 2019
+[2019-02-02 20:16:07 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:16:07 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:16:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:16:06.96 on 02 Feb 2019
+[2019-02-02 20:16:07 +0100] Sync Log:  Synchronization complete at 20:16:06  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:20:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:20:48.17 on 02 Feb 2019
+[2019-02-02 20:20:48 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:20:48 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:20:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:20:48.18 on 02 Feb 2019
+[2019-02-02 20:20:48 +0100] Sync Log:  Synchronization complete at 20:20:48  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:24:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:24:41.51 on 02 Feb 2019
+[2019-02-02 20:24:41 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:24:41 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:24:41 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:24:41.52 on 02 Feb 2019
+[2019-02-02 20:24:41 +0100] Sync Log:  Synchronization complete at 20:24:41  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:24:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:24:42.55 on 02 Feb 2019
+[2019-02-02 20:24:42 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:24:42 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:24:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:24:42.55 on 02 Feb 2019
+[2019-02-02 20:24:42 +0100] Sync Log:  Synchronization complete at 20:24:42  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:25:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:25:57.42 on 02 Feb 2019
+[2019-02-02 20:25:57 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:25:57 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:25:57 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:25:57 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:25:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:25:57.43 on 02 Feb 2019
+[2019-02-02 20:25:57 +0100] Sync Log:  Synchronization complete at 20:25:57  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:26:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:26:10.87 on 02 Feb 2019
+[2019-02-02 20:26:11 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:26:11 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:26:11 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:26:11 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:26:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:26:10.88 on 02 Feb 2019
+[2019-02-02 20:26:11 +0100] Sync Log:  Synchronization complete at 20:26:10  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:26:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:26:51.04 on 02 Feb 2019
+[2019-02-02 20:26:51 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:26:51 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:26:51 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:26:51 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:26:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:26:51.05 on 02 Feb 2019
+[2019-02-02 20:26:51 +0100] Sync Log:  Synchronization complete at 20:26:51  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:26:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:26:54.09 on 02 Feb 2019
+[2019-02-02 20:26:54 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:26:54 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:26:54 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:26:54 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:26:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:26:54.10 on 02 Feb 2019
+[2019-02-02 20:26:54 +0100] Sync Log:  Synchronization complete at 20:26:54  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:27:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:27:02.05 on 02 Feb 2019
+[2019-02-02 20:27:02 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:27:02 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:27:02 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:27:02 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:27:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:27:02.06 on 02 Feb 2019
+[2019-02-02 20:27:02 +0100] Sync Log:  Synchronization complete at 20:27:02  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:27:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:27:04.08 on 02 Feb 2019
+[2019-02-02 20:27:04 +0100] Sync Log:  [BGN] Updating file storage/logs/laravel-2019-02-02.log from /app_sync to /host_sync
+[2019-02-02 20:27:04 +0100] Sync Log:  [END] Updating file storage/logs/laravel-2019-02-02.log
+[2019-02-02 20:27:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:27:04.11 on 02 Feb 2019
+[2019-02-02 20:27:04 +0100] Sync Log:  Synchronization complete at 20:27:04  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:27:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:27:19.22 on 02 Feb 2019
+[2019-02-02 20:27:19 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:27:19 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:27:19 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:27:19 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:27:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:27:19.23 on 02 Feb 2019
+[2019-02-02 20:27:19 +0100] Sync Log:  Synchronization complete at 20:27:19  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:27:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:27:22.41 on 02 Feb 2019
+[2019-02-02 20:27:22 +0100] Sync Log:  [BGN] Updating file storage/logs/laravel-2019-02-02.log from /app_sync to /host_sync
+[2019-02-02 20:27:22 +0100] Sync Log:  [END] Updating file storage/logs/laravel-2019-02-02.log
+[2019-02-02 20:27:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:27:22.42 on 02 Feb 2019
+[2019-02-02 20:27:22 +0100] Sync Log:  Synchronization complete at 20:27:22  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:27:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:27:26.81 on 02 Feb 2019
+[2019-02-02 20:27:27 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:27:27 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:27:27 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:27:27 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:27:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:27:26.81 on 02 Feb 2019
+[2019-02-02 20:27:27 +0100] Sync Log:  Synchronization complete at 20:27:26  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:28:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:28:11.78 on 02 Feb 2019
+[2019-02-02 20:28:12 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:28:12 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:28:12 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:28:12 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:28:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:28:11.78 on 02 Feb 2019
+[2019-02-02 20:28:12 +0100] Sync Log:  Synchronization complete at 20:28:11  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:28:20 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:28:20.46 on 02 Feb 2019
+[2019-02-02 20:28:20 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:28:20 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:28:20 +0100] Sync Log:  [BGN] Updating file routes/web.php from /host_sync to /app_sync
+[2019-02-02 20:28:20 +0100] Sync Log:  [END] Updating file routes/web.php
+[2019-02-02 20:28:20 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:28:20.46 on 02 Feb 2019
+[2019-02-02 20:28:20 +0100] Sync Log:  Synchronization complete at 20:28:20  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 20:28:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:28:27.85 on 02 Feb 2019
+[2019-02-02 20:28:28 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:28:28 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:28:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:28:27.86 on 02 Feb 2019
+[2019-02-02 20:28:28 +0100] Sync Log:  Synchronization complete at 20:28:27  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 20:28:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:28:45.68 on 02 Feb 2019
+[2019-02-02 20:28:46 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 20:28:46 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 20:28:46 +0100] Sync Log:  [BGN] Updating file tests/Feature/QuizzesTest.php from /host_sync to /app_sync
+[2019-02-02 20:28:46 +0100] Sync Log:  [END] Updating file tests/Feature/QuizzesTest.php
+[2019-02-02 20:28:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:28:45.69 on 02 Feb 2019
+[2019-02-02 20:28:46 +0100] Sync Log:  Synchronization complete at 20:28:45  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 21:21:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:21:50.82 on 02 Feb 2019
+[2019-02-02 21:21:50 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 21:21:50 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 21:21:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:21:50.82 on 02 Feb 2019
+[2019-02-02 21:21:50 +0100] Sync Log:  Synchronization complete at 21:21:50  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 21:25:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:25:54.33 on 02 Feb 2019
+[2019-02-02 21:25:54 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 21:25:54 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 21:25:54 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:25:54.34 on 02 Feb 2019
+[2019-02-02 21:25:54 +0100] Sync Log:  Synchronization complete at 21:25:54  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 21:26:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:26:15.04 on 02 Feb 2019
+[2019-02-02 21:26:15 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 21:26:15 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 21:26:15 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 21:26:15 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 21:26:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:26:15.05 on 02 Feb 2019
+[2019-02-02 21:26:15 +0100] Sync Log:  Synchronization complete at 21:26:15  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 21:26:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:26:16.08 on 02 Feb 2019
+[2019-02-02 21:26:16 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 21:26:16 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 21:26:16 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 21:26:16 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 21:26:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:26:16.09 on 02 Feb 2019
+[2019-02-02 21:26:16 +0100] Sync Log:  Synchronization complete at 21:26:16  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 21:26:31 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:26:31.05 on 02 Feb 2019
+[2019-02-02 21:26:31 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 21:26:31 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 21:26:31 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 21:26:31 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 21:26:31 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:26:31.06 on 02 Feb 2019
+[2019-02-02 21:26:31 +0100] Sync Log:  Synchronization complete at 21:26:31  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 21:26:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:26:42.59 on 02 Feb 2019
+[2019-02-02 21:26:42 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-02 21:26:42 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-02 21:26:42 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-02 21:26:42 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-02 21:26:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:26:42.60 on 02 Feb 2019
+[2019-02-02 21:26:42 +0100] Sync Log:  Synchronization complete at 21:26:42  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 21:28:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:28:46.32 on 02 Feb 2019
+[2019-02-02 21:28:46 +0100] Sync Log:  [BGN] Copying .gitignore.swp from /host_sync to /app_sync
+[2019-02-02 21:28:46 +0100] Sync Log:  [END] Copying .gitignore.swp
+[2019-02-02 21:28:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:28:46.32 on 02 Feb 2019
+[2019-02-02 21:28:46 +0100] Sync Log:  Synchronization complete at 21:28:46  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 21:28:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:28:51.08 on 02 Feb 2019
+[2019-02-02 21:28:51 +0100] Sync Log:  [BGN] Updating file .gitignore from /host_sync to /app_sync
+[2019-02-02 21:28:51 +0100] Sync Log:  [END] Updating file .gitignore
+[2019-02-02 21:28:51 +0100] Sync Log:  [BGN] Deleting .gitignore.swp from /app_sync
+[2019-02-02 21:28:51 +0100] Sync Log:  [END] Deleting .gitignore.swp
+[2019-02-02 21:28:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:28:51.09 on 02 Feb 2019
+[2019-02-02 21:28:51 +0100] Sync Log:  Synchronization complete at 21:28:51  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-02 21:28:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:28:58.83 on 02 Feb 2019
+[2019-02-02 21:28:59 +0100] Sync Log:  [BGN] Copying .gitignore.swp from /host_sync to /app_sync
+[2019-02-02 21:28:59 +0100] Sync Log:  [END] Copying .gitignore.swp
+[2019-02-02 21:28:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:28:58.83 on 02 Feb 2019
+[2019-02-02 21:28:59 +0100] Sync Log:  Synchronization complete at 21:28:58  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 21:29:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:29:03.79 on 02 Feb 2019
+[2019-02-02 21:29:04 +0100] Sync Log:  [BGN] Updating file .gitignore from /host_sync to /app_sync
+[2019-02-02 21:29:04 +0100] Sync Log:  [END] Updating file .gitignore
+[2019-02-02 21:29:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:29:03.80 on 02 Feb 2019
+[2019-02-02 21:29:04 +0100] Sync Log:  Synchronization complete at 21:29:03  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-02 21:29:15 +0100] Sync Log:  Synchronization complete at 21:29:15  (0 item transferred, 1 skipped, 0 failed)
+[2019-02-02 21:29:15 +0100] Sync Log:    skipped: .gitignore.swp (Error in digesting /host_sync/.gitignore.swp:
+[2019-02-02 21:29:15 +0100] Sync Log:  /host_sync/.gitignore.swp: No such file or directory)
+[2019-02-02 21:29:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:29:16.26 on 02 Feb 2019
+[2019-02-02 21:29:16 +0100] Sync Log:  [BGN] Deleting .gitignore.swp from /app_sync
+[2019-02-02 21:29:16 +0100] Sync Log:  [END] Deleting .gitignore.swp
+[2019-02-02 21:29:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:29:16.26 on 02 Feb 2019
+[2019-02-02 21:29:16 +0100] Sync Log:  Synchronization complete at 21:29:16  (1 item transferred, 0 skipped, 0 failed)

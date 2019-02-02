@@ -20,3 +20,8 @@ Route::get('/{quiz}', function ($quiz) {
     $quiz = App\Quiz::findByJoinCodeOrFail($quiz);
     return view('quiz.show', compact('quiz'));
 });
+
+Route::post('/{quiz}/join', function($quiz) {
+    $quiz = App\Quiz::findByJoinCodeOrFail($quiz);
+    event(new \App\Events\UserJoinedQuiz(request('username'), $quiz));
+});

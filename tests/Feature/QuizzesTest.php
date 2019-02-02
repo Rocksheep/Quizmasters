@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Events\UserJoinedQuiz;
 use App\Quiz;
 use Carbon\Carbon;
 use Tests\TestCase;
@@ -39,5 +40,17 @@ class QuizzesTest extends TestCase
         $this->get($quiz->url())
             ->assertStatus(200)
             ->assertSee('Welcome to ' . $quiz->name);
+    }
+
+
+    /** @test */
+    public function an_event_is_triggered_when_a_user_joins_the_quiz()
+    {
+        \Event::fake();
+        $quiz = factory(Quiz::class)->create();
+        $url = $quiz->url() . '/join';
+        $this->post($url, ['username' => 'John Doe'])
+            ->assertStatus(200);
+        \Event::assertDispatched(UserJoinedQuiz::class);
     }
 }

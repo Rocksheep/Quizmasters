@@ -2,6 +2,7 @@
 
 namespace Tests\Unit;
 
+use App\Events\UserJoinedQuiz;
 use App\Quiz;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
