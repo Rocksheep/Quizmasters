@@ -17,20 +17,6 @@ window.Echo = new Echo({
     host: window.location.hostname + ':6001'
 });
 
-window.Echo.channel('quizzes')
-    .listen('UserJoinedQuiz', (e) => {
-        console.log(e);
-    })
-    .listen('App\\Events\\UserJoinedQuiz', (e) => {
-        console.log(e);
-    })
-    .listen('quizzes.test', (e) => {
-        console.log(e);
-    })
-    .listen('.quizzes.test', (e) => {
-        console.log(e);
-    });
-
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -43,6 +29,7 @@ window.Echo.channel('quizzes')
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('app', require('./components/App.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

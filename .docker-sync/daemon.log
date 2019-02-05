@@ -20881,3 +20881,1339 @@ unison: started
 [2019-02-05 11:43:50 +0100] Sync Log:  [END] Deleting echo/laravel-echo-server.lock
 [2019-02-05 11:43:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 11:43:50.77 on 05 Feb 2019
 [2019-02-05 11:43:50 +0100] Sync Log:  Synchronization complete at 11:43:50  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync appdata
+          ok  appdata container still running, restarting unison in container
+     command  docker exec appdata supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of appdata
+     success  Sync container started
+     success  Showing unison logs from your sync container: appdata
+[2019-02-05 16:50:55 +0100] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2019-02-05 16:50:55 +0100] Sync Log:  [BGN] Copying echo/laravel-echo-server.lock from /host_sync to /app_sync
+[2019-02-05 16:50:55 +0100] Sync Log:  [END] Copying echo/laravel-echo-server.lock
+[2019-02-05 16:50:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 11:42:27.37 on 05 Feb 2019
+[2019-02-05 16:50:55 +0100] Sync Log:  Synchronization complete at 11:42:27  (3 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:50:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 11:43:50.77 on 05 Feb 2019
+[2019-02-05 16:50:55 +0100] Sync Log:  [BGN] Deleting echo/laravel-echo-server.lock from /app_sync
+[2019-02-05 16:50:55 +0100] Sync Log:  [END] Deleting echo/laravel-echo-server.lock
+[2019-02-05 16:50:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 11:43:50.77 on 05 Feb 2019
+[2019-02-05 16:50:55 +0100] Sync Log:  Synchronization complete at 11:43:50  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 16:51:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:51:28.55 on 05 Feb 2019
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .git/COMMIT_EDITMSG from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .git/COMMIT_EDITMSG
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .git/index from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .git/index
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .git/logs/HEAD from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .git/logs/HEAD
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .git/logs/refs/heads/master from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .git/logs/refs/heads/master
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .git/logs/refs/remotes/origin/master from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .git/logs/refs/remotes/origin/master
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/06/bccdba378cf5a9341fc381cbb7efe59988c80b from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/06/bccdba378cf5a9341fc381cbb7efe59988c80b
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/06/f666647a98db2f50806d98ff59bb1f0b70bb1a from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/06/f666647a98db2f50806d98ff59bb1f0b70bb1a
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/07/ef815a3861b2fdf6633bf1bc8564176384a04c from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/07/ef815a3861b2fdf6633bf1bc8564176384a04c
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/0e/38d02933ac3e7b3134cb4798e89a33e562bd09 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/0e/38d02933ac3e7b3134cb4798e89a33e562bd09
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/16/668ed9e6f1b98f7ab866547dc76bc1407d8c22 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/16/668ed9e6f1b98f7ab866547dc76bc1407d8c22
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/17 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/17
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/1c from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/1c
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/20/cc2f174491abd0571f42c4c39a437087f761b4 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/20/cc2f174491abd0571f42c4c39a437087f761b4
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/2d from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/2d
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/35/fb4332fbbe370d5abbf8727dc8a7090a7f2214 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/35/fb4332fbbe370d5abbf8727dc8a7090a7f2214
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/37/b39b9aa51b8a5af6ec229032393239a686242c from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/37/b39b9aa51b8a5af6ec229032393239a686242c
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/42 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/42
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/45/0ee64d5b95efe4709f72356788a8ae4ba0fb7a from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/45/0ee64d5b95efe4709f72356788a8ae4ba0fb7a
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/45/1665825ee9bc4caa7eb82a7198073da53753ce from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/45/1665825ee9bc4caa7eb82a7198073da53753ce
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/6c/aaf759c490823ffc2d00f3025ea108060cfd93 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/6c/aaf759c490823ffc2d00f3025ea108060cfd93
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/6f/0fbdda52bdeb46b3264fb09147541357d5ffa2 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/6f/0fbdda52bdeb46b3264fb09147541357d5ffa2
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/7d/281fcae4175ccf7e19e9db4e72b5c3f8ea85cc from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/7d/281fcae4175ccf7e19e9db4e72b5c3f8ea85cc
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/7f/877b31be7d275d9d01c30b199da694bb4cce7e from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/7f/877b31be7d275d9d01c30b199da694bb4cce7e
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/85 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/85
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/88/fbbad144d26a8be0d5f1511366e445abff7377 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/88/fbbad144d26a8be0d5f1511366e445abff7377
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/8d/42fc58f5bf08d550a74837e24788a89f167c32 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/8d/42fc58f5bf08d550a74837e24788a89f167c32
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/91/4a6873e237bcd5c10161b24f7f8ef436786efe from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/91/4a6873e237bcd5c10161b24f7f8ef436786efe
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/92 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/92
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/98 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/98
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/a0/c3b92227c7e20be6eee8465bf886d9f9f9606d from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/a0/c3b92227c7e20be6eee8465bf886d9f9f9606d
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/a2 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/a2
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/a3/310a3674ce055ead8bfd756c6bd34bb62ec652 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/a3/310a3674ce055ead8bfd756c6bd34bb62ec652
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/b5/d5fe8862d3405745fea40f46129549ba6f4276 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/b5/d5fe8862d3405745fea40f46129549ba6f4276
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/ba from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/ba
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/bc from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/bc
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/bd from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/bd
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/bf/d34f7d0a77998e50f7b8311bdd134d26338053 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/bf/d34f7d0a77998e50f7b8311bdd134d26338053
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/c2 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/c2
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/dd from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/dd
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying .git/objects/ec/343c8c51bbbc14a9354f2a0702f03cdc80adb5 from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying .git/objects/ec/343c8c51bbbc14a9354f2a0702f03cdc80adb5
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .git/refs/heads/master from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .git/refs/heads/master
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .git/refs/remotes/origin/master from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .git/refs/remotes/origin/master
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:51:29 +0100] Sync Log:  [BGN] Copying echo/laravel-echo-server.lock from /host_sync to /app_sync
+[2019-02-05 16:51:29 +0100] Sync Log:  [END] Copying echo/laravel-echo-server.lock
+[2019-02-05 16:51:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:51:28.74 on 05 Feb 2019
+[2019-02-05 16:51:29 +0100] Sync Log:  Synchronization complete at 16:51:28  (46 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:52:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:52:37.63 on 05 Feb 2019
+[2019-02-05 16:52:38 +0100] Sync Log:  [BGN] Copying storage/framework/sessions/ulcp3iMoK2f4jx5rEbuKnv29RCZFeDh0z8OZ2bGF from /app_sync to /host_sync
+[2019-02-05 16:52:38 +0100] Sync Log:  [END] Copying storage/framework/sessions/ulcp3iMoK2f4jx5rEbuKnv29RCZFeDh0z8OZ2bGF
+[2019-02-05 16:52:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:52:37.64 on 05 Feb 2019
+[2019-02-05 16:52:38 +0100] Sync Log:  Synchronization complete at 16:52:37  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 16:55:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:55:05.96 on 05 Feb 2019
+[2019-02-05 16:55:06 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:55:06 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:55:06 +0100] Sync Log:  [BGN] Copying resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 16:55:06 +0100] Sync Log:  [END] Copying resources/js/components/App.vue
+[2019-02-05 16:55:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:55:05.98 on 05 Feb 2019
+[2019-02-05 16:55:06 +0100] Sync Log:  Synchronization complete at 16:55:06  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:55:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:55:07.08 on 05 Feb 2019
+[2019-02-05 16:55:07 +0100] Sync Log:  [BGN] Updating file .git/index from /host_sync to /app_sync
+[2019-02-05 16:55:07 +0100] Sync Log:  [END] Updating file .git/index
+[2019-02-05 16:55:07 +0100] Sync Log:  [BGN] Copying .git/objects/cf/822f22079cb629c32a9456ef4230bd948096f7 from /host_sync to /app_sync
+[2019-02-05 16:55:07 +0100] Sync Log:  [END] Copying .git/objects/cf/822f22079cb629c32a9456ef4230bd948096f7
+[2019-02-05 16:55:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:55:07.09 on 05 Feb 2019
+[2019-02-05 16:55:07 +0100] Sync Log:  Synchronization complete at 16:55:07  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:55:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:55:23.34 on 05 Feb 2019
+[2019-02-05 16:55:23 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:55:23 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:55:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:55:23.34 on 05 Feb 2019
+[2019-02-05 16:55:23 +0100] Sync Log:  Synchronization complete at 16:55:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 16:55:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:55:26.44 on 05 Feb 2019
+[2019-02-05 16:55:26 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:55:26 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:55:26 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 16:55:26 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 16:55:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:55:26.45 on 05 Feb 2019
+[2019-02-05 16:55:26 +0100] Sync Log:  Synchronization complete at 16:55:26  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:57:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:57:10.44 on 05 Feb 2019
+[2019-02-05 16:57:10 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:57:10 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:57:10 +0100] Sync Log:  [BGN] Updating file resources/js/app.js from /host_sync to /app_sync
+[2019-02-05 16:57:10 +0100] Sync Log:  [END] Updating file resources/js/app.js
+[2019-02-05 16:57:10 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 16:57:10 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 16:57:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:57:10.45 on 05 Feb 2019
+[2019-02-05 16:57:10 +0100] Sync Log:  Synchronization complete at 16:57:10  (3 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:57:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:57:48.62 on 05 Feb 2019
+[2019-02-05 16:57:49 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 16:57:49 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 16:57:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:57:48.78 on 05 Feb 2019
+[2019-02-05 16:57:49 +0100] Sync Log:  Synchronization complete at 16:57:48  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 16:58:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:58:24.47 on 05 Feb 2019
+[2019-02-05 16:58:24 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:58:24 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:58:24 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 16:58:24 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 16:58:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:58:24.48 on 05 Feb 2019
+[2019-02-05 16:58:24 +0100] Sync Log:  Synchronization complete at 16:58:24  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:58:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:58:26.59 on 05 Feb 2019
+[2019-02-05 16:58:26 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:58:26 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:58:26 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 16:58:27 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 16:58:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:58:26.60 on 05 Feb 2019
+[2019-02-05 16:58:27 +0100] Sync Log:  Synchronization complete at 16:58:26  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:58:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:58:28.69 on 05 Feb 2019
+[2019-02-05 16:58:29 +0100] Sync Log:  [BGN] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php from /app_sync to /host_sync
+[2019-02-05 16:58:29 +0100] Sync Log:  [END] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php
+[2019-02-05 16:58:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:58:28.72 on 05 Feb 2019
+[2019-02-05 16:58:29 +0100] Sync Log:  Synchronization complete at 16:58:28  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 16:58:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:58:46.79 on 05 Feb 2019
+[2019-02-05 16:58:47 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 16:58:47 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 16:58:47 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-05 16:58:47 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-05 16:58:47 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 16:58:47 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 16:58:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:58:46.80 on 05 Feb 2019
+[2019-02-05 16:58:47 +0100] Sync Log:  Synchronization complete at 16:58:46  (3 items transferred, 0 skipped, 0 failed)
+[2019-02-05 16:58:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:58:50.20 on 05 Feb 2019
+[2019-02-05 16:58:50 +0100] Sync Log:  [BGN] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php from /app_sync to /host_sync
+[2019-02-05 16:58:50 +0100] Sync Log:  [END] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php
+[2019-02-05 16:58:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:58:50.22 on 05 Feb 2019
+[2019-02-05 16:58:50 +0100] Sync Log:  Synchronization complete at 16:58:50  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:00:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:00:06.43 on 05 Feb 2019
+[2019-02-05 17:00:06 +0100] Sync Log:  [BGN] Deleting bootstrap/cache/services.php from /host_sync
+[2019-02-05 17:00:06 +0100] Sync Log:  [END] Deleting bootstrap/cache/services.php
+[2019-02-05 17:00:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:00:06.44 on 05 Feb 2019
+[2019-02-05 17:00:06 +0100] Sync Log:  Synchronization complete at 17:00:06  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:00:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:00:07.50 on 05 Feb 2019
+[2019-02-05 17:00:07 +0100] Sync Log:  [BGN] Copying bootstrap/cache/services.php from /app_sync to /host_sync
+[2019-02-05 17:00:07 +0100] Sync Log:  [END] Copying bootstrap/cache/services.php
+[2019-02-05 17:00:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:00:07.51 on 05 Feb 2019
+[2019-02-05 17:00:07 +0100] Sync Log:  Synchronization complete at 17:00:07  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:00:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:00:27.43 on 05 Feb 2019
+[2019-02-05 17:00:27 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:00:27 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:00:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:00:27.43 on 05 Feb 2019
+[2019-02-05 17:00:27 +0100] Sync Log:  Synchronization complete at 17:00:27  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:01:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:01:23.43 on 05 Feb 2019
+[2019-02-05 17:01:23 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:01:23 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:01:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:01:23.44 on 05 Feb 2019
+[2019-02-05 17:01:23 +0100] Sync Log:  Synchronization complete at 17:01:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:01:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:01:57.81 on 05 Feb 2019
+[2019-02-05 17:01:58 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:01:58 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:01:58 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:01:58 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:01:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:01:57.82 on 05 Feb 2019
+[2019-02-05 17:01:58 +0100] Sync Log:  Synchronization complete at 17:01:57  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:02:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:02:05.80 on 05 Feb 2019
+[2019-02-05 17:02:06 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:02:06 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:02:06 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:02:06 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:02:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:02:05.82 on 05 Feb 2019
+[2019-02-05 17:02:06 +0100] Sync Log:  Synchronization complete at 17:02:05  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:02:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:02:11.36 on 05 Feb 2019
+[2019-02-05 17:02:11 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:02:11 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:02:11 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:02:11 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:02:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:02:11.37 on 05 Feb 2019
+[2019-02-05 17:02:11 +0100] Sync Log:  Synchronization complete at 17:02:11  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:02:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:02:14.46 on 05 Feb 2019
+[2019-02-05 17:02:14 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:02:14 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:02:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:02:14.46 on 05 Feb 2019
+[2019-02-05 17:02:14 +0100] Sync Log:  Synchronization complete at 17:02:14  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:02:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:02:28.33 on 05 Feb 2019
+[2019-02-05 17:02:28 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:02:28 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:02:28 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:02:28 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:02:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:02:28.33 on 05 Feb 2019
+[2019-02-05 17:02:28 +0100] Sync Log:  Synchronization complete at 17:02:28  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:05.34 on 05 Feb 2019
+[2019-02-05 17:03:06 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:03:06 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:03:06 +0100] Sync Log:  [BGN] Updating file resources/js/app.js from /host_sync to /app_sync
+[2019-02-05 17:03:06 +0100] Sync Log:  [END] Updating file resources/js/app.js
+[2019-02-05 17:03:06 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:06 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:05.35 on 05 Feb 2019
+[2019-02-05 17:03:06 +0100] Sync Log:  Synchronization complete at 17:03:05  (3 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:09.49 on 05 Feb 2019
+[2019-02-05 17:03:09 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:03:09 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:03:09 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:09 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:09.49 on 05 Feb 2019
+[2019-02-05 17:03:09 +0100] Sync Log:  Synchronization complete at 17:03:09  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:13.25 on 05 Feb 2019
+[2019-02-05 17:03:13 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:03:13 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:03:13 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:13 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:13.26 on 05 Feb 2019
+[2019-02-05 17:03:13 +0100] Sync Log:  Synchronization complete at 17:03:13  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:29.02 on 05 Feb 2019
+[2019-02-05 17:03:29 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:03:29 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:03:29 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:29 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:29.04 on 05 Feb 2019
+[2019-02-05 17:03:29 +0100] Sync Log:  Synchronization complete at 17:03:29  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:33 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:33.60 on 05 Feb 2019
+[2019-02-05 17:03:33 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:03:33 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:03:33 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:33 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:33 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:33.61 on 05 Feb 2019
+[2019-02-05 17:03:34 +0100] Sync Log:  Synchronization complete at 17:03:33  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:40.53 on 05 Feb 2019
+[2019-02-05 17:03:40 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:40 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:40.54 on 05 Feb 2019
+[2019-02-05 17:03:40 +0100] Sync Log:  Synchronization complete at 17:03:40  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:48.19 on 05 Feb 2019
+[2019-02-05 17:03:48 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:03:48 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:03:48 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:48 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:48.21 on 05 Feb 2019
+[2019-02-05 17:03:48 +0100] Sync Log:  Synchronization complete at 17:03:48  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:03:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:03:50.31 on 05 Feb 2019
+[2019-02-05 17:03:50 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:03:50 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:03:50 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:03:50 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:03:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:03:50.31 on 05 Feb 2019
+[2019-02-05 17:03:50 +0100] Sync Log:  Synchronization complete at 17:03:50  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:04:03 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:04:03.09 on 05 Feb 2019
+[2019-02-05 17:04:03 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:04:03 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:04:03 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:04:03 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:04:03 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:04:03.10 on 05 Feb 2019
+[2019-02-05 17:04:03 +0100] Sync Log:  Synchronization complete at 17:04:03  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:04:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:04:06.18 on 05 Feb 2019
+[2019-02-05 17:04:06 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:04:06 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:04:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:04:06.18 on 05 Feb 2019
+[2019-02-05 17:04:06 +0100] Sync Log:  Synchronization complete at 17:04:06  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:04:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:04:27.54 on 05 Feb 2019
+[2019-02-05 17:04:27 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:04:27 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:04:27 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:04:27 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:04:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:04:27.57 on 05 Feb 2019
+[2019-02-05 17:04:28 +0100] Sync Log:  Synchronization complete at 17:04:27  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:04:35 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:04:35.34 on 05 Feb 2019
+[2019-02-05 17:04:35 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:04:35 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:04:35 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:04:35 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:04:35 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:04:35.35 on 05 Feb 2019
+[2019-02-05 17:04:35 +0100] Sync Log:  Synchronization complete at 17:04:35  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:04:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:04:47.17 on 05 Feb 2019
+[2019-02-05 17:04:47 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:04:47 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:04:47 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:04:47 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:04:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:04:47.17 on 05 Feb 2019
+[2019-02-05 17:04:47 +0100] Sync Log:  Synchronization complete at 17:04:47  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:05:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:05:18.04 on 05 Feb 2019
+[2019-02-05 17:05:18 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:05:18 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:05:18 +0100] Sync Log:  [BGN] Updating file resources/js/app.js from /host_sync to /app_sync
+[2019-02-05 17:05:18 +0100] Sync Log:  [END] Updating file resources/js/app.js
+[2019-02-05 17:05:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:05:18.05 on 05 Feb 2019
+[2019-02-05 17:05:18 +0100] Sync Log:  Synchronization complete at 17:05:18  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:05:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:05:22.83 on 05 Feb 2019
+[2019-02-05 17:05:23 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:05:23 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:05:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:05:22.83 on 05 Feb 2019
+[2019-02-05 17:05:23 +0100] Sync Log:  Synchronization complete at 17:05:22  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:05:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:05:36.49 on 05 Feb 2019
+[2019-02-05 17:05:36 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:05:36 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:05:36 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 17:05:36 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 17:05:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:05:36.50 on 05 Feb 2019
+[2019-02-05 17:05:36 +0100] Sync Log:  Synchronization complete at 17:05:36  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:05:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:05:37.57 on 05 Feb 2019
+[2019-02-05 17:05:37 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 17:05:37 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 17:05:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:05:37.57 on 05 Feb 2019
+[2019-02-05 17:05:37 +0100] Sync Log:  Synchronization complete at 17:05:37  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:05:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:05:38.60 on 05 Feb 2019
+[2019-02-05 17:05:38 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:05:38 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:05:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:05:38.60 on 05 Feb 2019
+[2019-02-05 17:05:39 +0100] Sync Log:  Synchronization complete at 17:05:38  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:05:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:05:41.69 on 05 Feb 2019
+[2019-02-05 17:05:42 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:05:42 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:05:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:05:41.69 on 05 Feb 2019
+[2019-02-05 17:05:42 +0100] Sync Log:  Synchronization complete at 17:05:41  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:05:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:05:48.30 on 05 Feb 2019
+[2019-02-05 17:05:48 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:05:48 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:05:48 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 17:05:48 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 17:05:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:05:48.31 on 05 Feb 2019
+[2019-02-05 17:05:48 +0100] Sync Log:  Synchronization complete at 17:05:48  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:06:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:06:04.52 on 05 Feb 2019
+[2019-02-05 17:06:04 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/c12be47674c170fbdae28b11cc5220a8.json.gz from /app_sync to /host_sync
+[2019-02-05 17:06:04 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/c12be47674c170fbdae28b11cc5220a8.json.gz
+[2019-02-05 17:06:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:06:04.53 on 05 Feb 2019
+[2019-02-05 17:06:04 +0100] Sync Log:  Synchronization complete at 17:06:04  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:06:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:06:05.59 on 05 Feb 2019
+[2019-02-05 17:06:05 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/6489151b65ea3417f6b0f6fbc3269248.json.gz from /app_sync to /host_sync
+[2019-02-05 17:06:05 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/6489151b65ea3417f6b0f6fbc3269248.json.gz
+[2019-02-05 17:06:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:06:05.60 on 05 Feb 2019
+[2019-02-05 17:06:06 +0100] Sync Log:  Synchronization complete at 17:06:05  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:06:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:06:10.63 on 05 Feb 2019
+[2019-02-05 17:06:11 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 17:06:11 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 17:06:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:06:10.70 on 05 Feb 2019
+[2019-02-05 17:06:11 +0100] Sync Log:  Synchronization complete at 17:06:10  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:07:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:07:14.09 on 05 Feb 2019
+[2019-02-05 17:07:14 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:07:14 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:07:14 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:07:14 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:07:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:07:14.09 on 05 Feb 2019
+[2019-02-05 17:07:14 +0100] Sync Log:  Synchronization complete at 17:07:14  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:07:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:07:47.99 on 05 Feb 2019
+[2019-02-05 17:07:48 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:07:48 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:07:48 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:07:48 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:07:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:07:48.00 on 05 Feb 2019
+[2019-02-05 17:07:48 +0100] Sync Log:  Synchronization complete at 17:07:48  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:08:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:03.72 on 05 Feb 2019
+[2019-02-05 17:08:04 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/9dff595438daab9408cfc7c39a3c73cd.json.gz from /app_sync to /host_sync
+[2019-02-05 17:08:04 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/9dff595438daab9408cfc7c39a3c73cd.json.gz
+[2019-02-05 17:08:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:03.73 on 05 Feb 2019
+[2019-02-05 17:08:04 +0100] Sync Log:  Synchronization complete at 17:08:03  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:08:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:09.40 on 05 Feb 2019
+[2019-02-05 17:08:09 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 17:08:09 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 17:08:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:09.47 on 05 Feb 2019
+[2019-02-05 17:08:09 +0100] Sync Log:  Synchronization complete at 17:08:09  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:08:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:12.71 on 05 Feb 2019
+[2019-02-05 17:08:13 +0100] Sync Log:  [BGN] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php from /app_sync to /host_sync
+[2019-02-05 17:08:13 +0100] Sync Log:  [END] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php
+[2019-02-05 17:08:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:12.73 on 05 Feb 2019
+[2019-02-05 17:08:13 +0100] Sync Log:  Synchronization complete at 17:08:12  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:08:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:40.23 on 05 Feb 2019
+[2019-02-05 17:08:40 +0100] Sync Log:  [BGN] Deleting echo/laravel-echo-server.lock from /app_sync
+[2019-02-05 17:08:40 +0100] Sync Log:  [END] Deleting echo/laravel-echo-server.lock
+[2019-02-05 17:08:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:40.23 on 05 Feb 2019
+[2019-02-05 17:08:40 +0100] Sync Log:  Synchronization complete at 17:08:40  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync appdata
+          ok  appdata container still running, restarting unison in container
+     command  docker exec appdata supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of appdata
+     success  Sync container started
+     success  Showing unison logs from your sync container: appdata
+[2019-02-05 17:09:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:12.71 on 05 Feb 2019
+[2019-02-05 17:09:01 +0100] Sync Log:  [BGN] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php from /app_sync to /host_sync
+[2019-02-05 17:09:01 +0100] Sync Log:  [END] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php
+[2019-02-05 17:09:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:12.73 on 05 Feb 2019
+[2019-02-05 17:09:01 +0100] Sync Log:  Synchronization complete at 17:08:12  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:09:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:40.23 on 05 Feb 2019
+[2019-02-05 17:09:01 +0100] Sync Log:  [BGN] Deleting echo/laravel-echo-server.lock from /app_sync
+[2019-02-05 17:09:01 +0100] Sync Log:  [END] Deleting echo/laravel-echo-server.lock
+[2019-02-05 17:09:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:40.23 on 05 Feb 2019
+[2019-02-05 17:09:01 +0100] Sync Log:  Synchronization complete at 17:08:40  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:09:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:09:40.17 on 05 Feb 2019
+[2019-02-05 17:09:40 +0100] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2019-02-05 17:09:40 +0100] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2019-02-05 17:09:40 +0100] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2019-02-05 17:09:40 +0100] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2019-02-05 17:09:40 +0100] Sync Log:  [BGN] Copying echo/laravel-echo-server.lock from /host_sync to /app_sync
+[2019-02-05 17:09:40 +0100] Sync Log:  [END] Copying echo/laravel-echo-server.lock
+[2019-02-05 17:09:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:09:40.21 on 05 Feb 2019
+[2019-02-05 17:09:40 +0100] Sync Log:  Synchronization complete at 17:09:40  (3 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:10:03 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:10:02.72 on 05 Feb 2019
+[2019-02-05 17:10:03 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:10:03 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:10:03 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 17:10:03 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 17:10:03 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:10:02.73 on 05 Feb 2019
+[2019-02-05 17:10:03 +0100] Sync Log:  Synchronization complete at 17:10:02  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:10:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:10:10.38 on 05 Feb 2019
+[2019-02-05 17:10:10 +0100] Sync Log:  [BGN] Updating file .git/index from /host_sync to /app_sync
+[2019-02-05 17:10:10 +0100] Sync Log:  [END] Updating file .git/index
+[2019-02-05 17:10:10 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-05 17:10:10 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-05 17:10:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:10:10.39 on 05 Feb 2019
+[2019-02-05 17:10:10 +0100] Sync Log:  Synchronization complete at 17:10:10  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:10:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:10:14.41 on 05 Feb 2019
+[2019-02-05 17:10:14 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:10:14 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:10:14 +0100] Sync Log:  [BGN] Updating file app/Events/UserJoinedQuiz.php from /host_sync to /app_sync
+[2019-02-05 17:10:14 +0100] Sync Log:  [END] Updating file app/Events/UserJoinedQuiz.php
+[2019-02-05 17:10:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:10:14.42 on 05 Feb 2019
+[2019-02-05 17:10:14 +0100] Sync Log:  Synchronization complete at 17:10:14  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 17:10:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:10:27.26 on 05 Feb 2019
+[2019-02-05 17:10:27 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 17:10:27 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 17:10:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:10:27.26 on 05 Feb 2019
+[2019-02-05 17:10:27 +0100] Sync Log:  Synchronization complete at 17:10:27  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:10:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:10:38.20 on 05 Feb 2019
+[2019-02-05 17:10:38 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/5172d31edbf473b8d28b7ece7cc2b590.json.gz from /app_sync to /host_sync
+[2019-02-05 17:10:38 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/5172d31edbf473b8d28b7ece7cc2b590.json.gz
+[2019-02-05 17:10:38 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:10:38.21 on 05 Feb 2019
+[2019-02-05 17:10:38 +0100] Sync Log:  Synchronization complete at 17:10:38  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 17:10:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:10:43.84 on 05 Feb 2019
+[2019-02-05 17:10:44 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 17:10:44 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 17:10:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:10:43.93 on 05 Feb 2019
+[2019-02-05 17:10:44 +0100] Sync Log:  Synchronization complete at 17:10:43  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:34:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:34:30.49 on 05 Feb 2019
+[2019-02-05 18:34:30 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:34:30 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:34:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:34:30.49 on 05 Feb 2019
+[2019-02-05 18:34:30 +0100] Sync Log:  Synchronization complete at 18:34:30  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:41:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:41:23.00 on 05 Feb 2019
+[2019-02-05 18:41:23 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:41:23 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:41:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:41:23.00 on 05 Feb 2019
+[2019-02-05 18:41:23 +0100] Sync Log:  Synchronization complete at 18:41:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:41:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:41:52.05 on 05 Feb 2019
+[2019-02-05 18:41:52 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:41:52 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:41:52 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:41:52 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:41:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:41:52.05 on 05 Feb 2019
+[2019-02-05 18:41:52 +0100] Sync Log:  Synchronization complete at 18:41:52  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:41:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:41:56.24 on 05 Feb 2019
+[2019-02-05 18:41:56 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:41:56 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:41:56 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:41:56 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:41:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:41:56.25 on 05 Feb 2019
+[2019-02-05 18:41:57 +0100] Sync Log:  Synchronization complete at 18:41:56  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:41:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:41:57.32 on 05 Feb 2019
+[2019-02-05 18:41:58 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:41:58 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:41:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:41:57.32 on 05 Feb 2019
+[2019-02-05 18:41:58 +0100] Sync Log:  Synchronization complete at 18:41:57  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:41:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:41:58.40 on 05 Feb 2019
+[2019-02-05 18:41:59 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:41:59 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:41:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:41:58.40 on 05 Feb 2019
+[2019-02-05 18:41:59 +0100] Sync Log:  Synchronization complete at 18:41:58  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:42:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:41:59.47 on 05 Feb 2019
+[2019-02-05 18:42:00 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:42:00 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:42:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:41:59.47 on 05 Feb 2019
+[2019-02-05 18:42:00 +0100] Sync Log:  Synchronization complete at 18:41:59  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:42:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:42:06.77 on 05 Feb 2019
+[2019-02-05 18:42:07 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:42:07 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:42:07 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:42:07 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:42:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:42:06.78 on 05 Feb 2019
+[2019-02-05 18:42:07 +0100] Sync Log:  Synchronization complete at 18:42:06  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:42:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:42:14.20 on 05 Feb 2019
+[2019-02-05 18:42:14 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:42:14 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:42:14 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:42:14 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:42:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:42:14.20 on 05 Feb 2019
+[2019-02-05 18:42:14 +0100] Sync Log:  Synchronization complete at 18:42:14  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:42:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:42:18.77 on 05 Feb 2019
+[2019-02-05 18:42:19 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:42:19 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:42:19 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:42:19 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:42:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:42:18.78 on 05 Feb 2019
+[2019-02-05 18:42:19 +0100] Sync Log:  Synchronization complete at 18:42:18  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:42:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:42:57.85 on 05 Feb 2019
+[2019-02-05 18:42:58 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:42:58 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:42:58 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:42:58 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:42:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:42:57.86 on 05 Feb 2019
+[2019-02-05 18:42:58 +0100] Sync Log:  Synchronization complete at 18:42:57  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:43:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:43:10.03 on 05 Feb 2019
+[2019-02-05 18:43:10 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:43:10 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:43:10 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:43:10 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:43:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:43:10.03 on 05 Feb 2019
+[2019-02-05 18:43:10 +0100] Sync Log:  Synchronization complete at 18:43:10  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:43:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:43:11.10 on 05 Feb 2019
+[2019-02-05 18:43:11 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:43:11 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:43:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:43:11.11 on 05 Feb 2019
+[2019-02-05 18:43:11 +0100] Sync Log:  Synchronization complete at 18:43:11  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:43:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:43:22.81 on 05 Feb 2019
+[2019-02-05 18:43:23 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:43:23 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:43:23 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:43:23 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:43:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:43:22.81 on 05 Feb 2019
+[2019-02-05 18:43:23 +0100] Sync Log:  Synchronization complete at 18:43:22  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:43:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:43:31.32 on 05 Feb 2019
+[2019-02-05 18:43:32 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:43:32 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:43:32 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:43:32 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:43:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:43:31.33 on 05 Feb 2019
+[2019-02-05 18:43:32 +0100] Sync Log:  Synchronization complete at 18:43:31  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:43:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:43:33.42 on 05 Feb 2019
+[2019-02-05 18:43:34 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:43:34 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:43:34 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:43:34 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:43:34 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:43:33.43 on 05 Feb 2019
+[2019-02-05 18:43:34 +0100] Sync Log:  Synchronization complete at 18:43:33  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:43:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:43:55.46 on 05 Feb 2019
+[2019-02-05 18:43:56 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:43:56 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:43:56 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:43:56 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:43:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:43:55.47 on 05 Feb 2019
+[2019-02-05 18:43:56 +0100] Sync Log:  Synchronization complete at 18:43:55  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:44:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:44:14.44 on 05 Feb 2019
+[2019-02-05 18:44:15 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:44:15 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:44:15 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:44:15 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:44:15 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:44:14.44 on 05 Feb 2019
+[2019-02-05 18:44:15 +0100] Sync Log:  Synchronization complete at 18:44:14  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:44:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:44:23.69 on 05 Feb 2019
+[2019-02-05 18:44:24 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:44:24 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:44:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:44:23.69 on 05 Feb 2019
+[2019-02-05 18:44:24 +0100] Sync Log:  Synchronization complete at 18:44:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:44:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:44:29.32 on 05 Feb 2019
+[2019-02-05 18:44:30 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:44:30 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:44:30 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:44:30 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:44:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:44:29.33 on 05 Feb 2019
+[2019-02-05 18:44:30 +0100] Sync Log:  Synchronization complete at 18:44:29  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:44:35 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:44:34.98 on 05 Feb 2019
+[2019-02-05 18:44:35 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:44:35 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:44:35 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:44:35 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:44:35 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:44:34.99 on 05 Feb 2019
+[2019-02-05 18:44:35 +0100] Sync Log:  Synchronization complete at 18:44:35  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:44:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:44:59.08 on 05 Feb 2019
+[2019-02-05 18:44:59 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:44:59 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:44:59 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:44:59 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:44:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:44:59.10 on 05 Feb 2019
+[2019-02-05 18:44:59 +0100] Sync Log:  Synchronization complete at 18:44:59  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:45:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:45:08.49 on 05 Feb 2019
+[2019-02-05 18:45:09 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:45:09 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:45:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:45:08.50 on 05 Feb 2019
+[2019-02-05 18:45:09 +0100] Sync Log:  Synchronization complete at 18:45:08  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:45:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:45:23.64 on 05 Feb 2019
+[2019-02-05 18:45:24 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:45:24 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:45:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:45:23.64 on 05 Feb 2019
+[2019-02-05 18:45:24 +0100] Sync Log:  Synchronization complete at 18:45:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:45:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:45:27.05 on 05 Feb 2019
+[2019-02-05 18:45:27 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:45:27 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:45:27 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:45:27 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:45:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:45:27.09 on 05 Feb 2019
+[2019-02-05 18:45:27 +0100] Sync Log:  Synchronization complete at 18:45:27  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:45:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:45:29.20 on 05 Feb 2019
+[2019-02-05 18:45:29 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:45:29 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:45:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:45:29.20 on 05 Feb 2019
+[2019-02-05 18:45:29 +0100] Sync Log:  Synchronization complete at 18:45:29  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:45:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:45:50.86 on 05 Feb 2019
+[2019-02-05 18:45:51 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:45:51 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:45:51 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:45:51 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:45:51 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:45:50.87 on 05 Feb 2019
+[2019-02-05 18:45:51 +0100] Sync Log:  Synchronization complete at 18:45:50  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:45:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:45:56.83 on 05 Feb 2019
+[2019-02-05 18:45:57 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:45:57 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:45:57 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:45:57 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:45:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:45:56.84 on 05 Feb 2019
+[2019-02-05 18:45:57 +0100] Sync Log:  Synchronization complete at 18:45:56  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:47:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:47:48.05 on 05 Feb 2019
+[2019-02-05 18:47:48 +0100] Sync Log:  [BGN] Copying public/img from /host_sync to /app_sync
+[2019-02-05 18:47:48 +0100] Sync Log:  [END] Copying public/img
+[2019-02-05 18:47:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:47:48.05 on 05 Feb 2019
+[2019-02-05 18:47:48 +0100] Sync Log:  Synchronization complete at 18:47:48  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:47:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:47:57.99 on 05 Feb 2019
+[2019-02-05 18:47:58 +0100] Sync Log:  [BGN] Copying public/img/join.png from /host_sync to /app_sync
+[2019-02-05 18:47:58 +0100] Sync Log:  [END] Copying public/img/join.png
+[2019-02-05 18:47:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:47:58.02 on 05 Feb 2019
+[2019-02-05 18:47:58 +0100] Sync Log:  Synchronization complete at 18:47:58  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:48:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:48:10.56 on 05 Feb 2019
+[2019-02-05 18:48:11 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:48:11 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:48:11 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:48:11 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:48:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:48:10.57 on 05 Feb 2019
+[2019-02-05 18:48:11 +0100] Sync Log:  Synchronization complete at 18:48:10  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:48:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:48:16.28 on 05 Feb 2019
+[2019-02-05 18:48:17 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:48:17 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:48:17 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:48:17 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:48:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:48:16.29 on 05 Feb 2019
+[2019-02-05 18:48:17 +0100] Sync Log:  Synchronization complete at 18:48:16  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:48:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:48:25.90 on 05 Feb 2019
+[2019-02-05 18:48:26 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:48:26 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:48:26 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:48:26 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:48:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:48:25.92 on 05 Feb 2019
+[2019-02-05 18:48:26 +0100] Sync Log:  Synchronization complete at 18:48:25  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:48:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:48:40.14 on 05 Feb 2019
+[2019-02-05 18:48:40 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/51a3c3b889f1657cbf7d95f4f6b5fdb9.json.gz from /app_sync to /host_sync
+[2019-02-05 18:48:40 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/51a3c3b889f1657cbf7d95f4f6b5fdb9.json.gz
+[2019-02-05 18:48:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:48:40.15 on 05 Feb 2019
+[2019-02-05 18:48:40 +0100] Sync Log:  Synchronization complete at 18:48:40  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:48:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:48:46.80 on 05 Feb 2019
+[2019-02-05 18:48:47 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 18:48:47 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 18:48:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:48:46.86 on 05 Feb 2019
+[2019-02-05 18:48:47 +0100] Sync Log:  Synchronization complete at 18:48:46  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:49:21 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:49:21.03 on 05 Feb 2019
+[2019-02-05 18:49:21 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:49:21 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:49:21 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:49:21.03 on 05 Feb 2019
+[2019-02-05 18:49:21 +0100] Sync Log:  Synchronization complete at 18:49:21  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:49:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:49:55.64 on 05 Feb 2019
+[2019-02-05 18:49:56 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:49:56 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:49:56 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:49:56 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:49:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:49:55.65 on 05 Feb 2019
+[2019-02-05 18:49:56 +0100] Sync Log:  Synchronization complete at 18:49:55  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:50:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:50:03.62 on 05 Feb 2019
+[2019-02-05 18:50:04 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/445b2acc54bb6fd0650e1eb06c62997f.json.gz from /app_sync to /host_sync
+[2019-02-05 18:50:04 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/445b2acc54bb6fd0650e1eb06c62997f.json.gz
+[2019-02-05 18:50:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:50:03.63 on 05 Feb 2019
+[2019-02-05 18:50:04 +0100] Sync Log:  Synchronization complete at 18:50:03  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:50:08 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:50:07.34 on 05 Feb 2019
+[2019-02-05 18:50:08 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:50:08 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:50:08 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:50:08 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:50:08 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:50:07.35 on 05 Feb 2019
+[2019-02-05 18:50:08 +0100] Sync Log:  Synchronization complete at 18:50:07  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:50:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:50:09.41 on 05 Feb 2019
+[2019-02-05 18:50:10 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 18:50:10 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 18:50:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:50:09.49 on 05 Feb 2019
+[2019-02-05 18:50:10 +0100] Sync Log:  Synchronization complete at 18:50:09  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:51:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:51:08.46 on 05 Feb 2019
+[2019-02-05 18:51:09 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:51:09 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:51:09 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:51:09 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:51:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:51:08.47 on 05 Feb 2019
+[2019-02-05 18:51:09 +0100] Sync Log:  Synchronization complete at 18:51:08  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:51:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:51:09.54 on 05 Feb 2019
+[2019-02-05 18:51:10 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:51:10 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:51:10 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:51:10 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:51:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:51:09.55 on 05 Feb 2019
+[2019-02-05 18:51:10 +0100] Sync Log:  Synchronization complete at 18:51:09  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:51:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:51:13.32 on 05 Feb 2019
+[2019-02-05 18:51:14 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:51:14 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:51:14 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:51:14 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:51:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:51:13.32 on 05 Feb 2019
+[2019-02-05 18:51:14 +0100] Sync Log:  Synchronization complete at 18:51:13  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:51:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:51:25.85 on 05 Feb 2019
+[2019-02-05 18:51:26 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 18:51:26 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 18:51:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:51:25.89 on 05 Feb 2019
+[2019-02-05 18:51:26 +0100] Sync Log:  Synchronization complete at 18:51:25  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:51:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:51:28.46 on 05 Feb 2019
+[2019-02-05 18:51:29 +0100] Sync Log:  [BGN] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php from /app_sync to /host_sync
+[2019-02-05 18:51:29 +0100] Sync Log:  [END] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php
+[2019-02-05 18:51:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:51:28.47 on 05 Feb 2019
+[2019-02-05 18:51:29 +0100] Sync Log:  Synchronization complete at 18:51:28  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:52:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:52:41.28 on 05 Feb 2019
+[2019-02-05 18:52:42 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:52:42 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:52:42 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:52:42 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:52:42 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:52:41.29 on 05 Feb 2019
+[2019-02-05 18:52:42 +0100] Sync Log:  Synchronization complete at 18:52:41  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:52:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:52:45.22 on 05 Feb 2019
+[2019-02-05 18:52:46 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:52:46 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:52:46 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:52:46 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:52:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:52:45.23 on 05 Feb 2019
+[2019-02-05 18:52:46 +0100] Sync Log:  Synchronization complete at 18:52:45  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:52:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:52:55.06 on 05 Feb 2019
+[2019-02-05 18:52:55 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:52:55 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:52:55 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:52:55 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:52:55 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:52:55.07 on 05 Feb 2019
+[2019-02-05 18:52:55 +0100] Sync Log:  Synchronization complete at 18:52:55  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:53:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:53:08.30 on 05 Feb 2019
+[2019-02-05 18:53:09 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:53:09 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:53:09 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:53:09 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:53:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:53:08.31 on 05 Feb 2019
+[2019-02-05 18:53:09 +0100] Sync Log:  Synchronization complete at 18:53:08  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:53:21 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:53:20.85 on 05 Feb 2019
+[2019-02-05 18:53:21 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 18:53:21 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 18:53:21 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:53:20.97 on 05 Feb 2019
+[2019-02-05 18:53:21 +0100] Sync Log:  Synchronization complete at 18:53:21  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:54:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:54:17.67 on 05 Feb 2019
+[2019-02-05 18:54:18 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:54:18 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:54:18 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:54:18 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:54:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:54:17.68 on 05 Feb 2019
+[2019-02-05 18:54:18 +0100] Sync Log:  Synchronization complete at 18:54:17  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:54:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:54:39.51 on 05 Feb 2019
+[2019-02-05 18:54:40 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:54:40 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:54:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:54:39.51 on 05 Feb 2019
+[2019-02-05 18:54:40 +0100] Sync Log:  Synchronization complete at 18:54:39  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:54:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:54:46.32 on 05 Feb 2019
+[2019-02-05 18:54:47 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:54:47 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:54:47 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:54:47 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:54:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:54:46.33 on 05 Feb 2019
+[2019-02-05 18:54:47 +0100] Sync Log:  Synchronization complete at 18:54:46  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:54:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:54:47.39 on 05 Feb 2019
+[2019-02-05 18:54:48 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:54:48 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:54:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:54:47.40 on 05 Feb 2019
+[2019-02-05 18:54:48 +0100] Sync Log:  Synchronization complete at 18:54:47  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:55:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:55:01.54 on 05 Feb 2019
+[2019-02-05 18:55:02 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 18:55:02 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 18:55:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:55:01.63 on 05 Feb 2019
+[2019-02-05 18:55:02 +0100] Sync Log:  Synchronization complete at 18:55:01  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:56:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:56:36.30 on 05 Feb 2019
+[2019-02-05 18:56:37 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:56:37 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:56:37 +0100] Sync Log:  [BGN] Updating file resources/sass/app.scss from /host_sync to /app_sync
+[2019-02-05 18:56:37 +0100] Sync Log:  [END] Updating file resources/sass/app.scss
+[2019-02-05 18:56:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:56:36.30 on 05 Feb 2019
+[2019-02-05 18:56:37 +0100] Sync Log:  Synchronization complete at 18:56:36  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:08.91 on 05 Feb 2019
+[2019-02-05 18:57:09 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:57:09 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:57:09 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:57:09 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:57:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:08.92 on 05 Feb 2019
+[2019-02-05 18:57:09 +0100] Sync Log:  Synchronization complete at 18:57:08  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:11.02 on 05 Feb 2019
+[2019-02-05 18:57:11 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:57:11 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:57:11 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:57:11 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:57:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:11.02 on 05 Feb 2019
+[2019-02-05 18:57:11 +0100] Sync Log:  Synchronization complete at 18:57:11  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:13.09 on 05 Feb 2019
+[2019-02-05 18:57:13 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:57:13 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:57:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:13.10 on 05 Feb 2019
+[2019-02-05 18:57:13 +0100] Sync Log:  Synchronization complete at 18:57:13  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:14.14 on 05 Feb 2019
+[2019-02-05 18:57:14 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:57:14 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:57:14 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:14.14 on 05 Feb 2019
+[2019-02-05 18:57:14 +0100] Sync Log:  Synchronization complete at 18:57:14  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:21.78 on 05 Feb 2019
+[2019-02-05 18:57:22 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:57:22 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:57:22 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:57:22 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:57:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:21.79 on 05 Feb 2019
+[2019-02-05 18:57:22 +0100] Sync Log:  Synchronization complete at 18:57:21  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:35.36 on 05 Feb 2019
+[2019-02-05 18:57:36 +0100] Sync Log:  [BGN] Updating file public/css/app.css from /app_sync to /host_sync
+[2019-02-05 18:57:36 +0100] Sync Log:  [END] Updating file public/css/app.css
+[2019-02-05 18:57:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:35.39 on 05 Feb 2019
+[2019-02-05 18:57:36 +0100] Sync Log:  Synchronization complete at 18:57:35  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:47.85 on 05 Feb 2019
+[2019-02-05 18:57:48 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:57:48 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:57:48 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:57:48 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:57:48 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:47.86 on 05 Feb 2019
+[2019-02-05 18:57:48 +0100] Sync Log:  Synchronization complete at 18:57:47  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:57:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:57:51.26 on 05 Feb 2019
+[2019-02-05 18:57:52 +0100] Sync Log:  [BGN] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php from /app_sync to /host_sync
+[2019-02-05 18:57:52 +0100] Sync Log:  [END] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php
+[2019-02-05 18:57:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:57:51.28 on 05 Feb 2019
+[2019-02-05 18:57:52 +0100] Sync Log:  Synchronization complete at 18:57:51  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:58:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:58:00.50 on 05 Feb 2019
+[2019-02-05 18:58:01 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 18:58:01 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 18:58:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:58:00.64 on 05 Feb 2019
+[2019-02-05 18:58:01 +0100] Sync Log:  Synchronization complete at 18:58:00  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:58:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:58:16.28 on 05 Feb 2019
+[2019-02-05 18:58:17 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:58:17 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:58:17 +0100] Sync Log:  [BGN] Updating file resources/views/welcome.blade.php from /host_sync to /app_sync
+[2019-02-05 18:58:17 +0100] Sync Log:  [END] Updating file resources/views/welcome.blade.php
+[2019-02-05 18:58:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:58:16.29 on 05 Feb 2019
+[2019-02-05 18:58:17 +0100] Sync Log:  Synchronization complete at 18:58:16  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:58:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:58:18.35 on 05 Feb 2019
+[2019-02-05 18:58:19 +0100] Sync Log:  [BGN] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php from /app_sync to /host_sync
+[2019-02-05 18:58:19 +0100] Sync Log:  [END] Updating file storage/framework/views/b18d705f49d4cb87cb2bde363b3ca5bd2bbb5823.php
+[2019-02-05 18:58:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:58:18.37 on 05 Feb 2019
+[2019-02-05 18:58:19 +0100] Sync Log:  Synchronization complete at 18:58:18  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:58:31 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:58:30.78 on 05 Feb 2019
+[2019-02-05 18:58:31 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:58:31 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:58:31 +0100] Sync Log:  [BGN] Updating file resources/sass/app.scss from /host_sync to /app_sync
+[2019-02-05 18:58:31 +0100] Sync Log:  [END] Updating file resources/sass/app.scss
+[2019-02-05 18:58:31 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:58:30.79 on 05 Feb 2019
+[2019-02-05 18:58:31 +0100] Sync Log:  Synchronization complete at 18:58:30  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:58:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:58:43.75 on 05 Feb 2019
+[2019-02-05 18:58:44 +0100] Sync Log:  [BGN] Updating file public/css/app.css from /app_sync to /host_sync
+[2019-02-05 18:58:44 +0100] Sync Log:  [END] Updating file public/css/app.css
+[2019-02-05 18:58:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:58:43.77 on 05 Feb 2019
+[2019-02-05 18:58:44 +0100] Sync Log:  Synchronization complete at 18:58:43  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 18:59:33 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:59:32.48 on 05 Feb 2019
+[2019-02-05 18:59:33 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:59:33 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:59:33 +0100] Sync Log:  [BGN] Updating file resources/sass/app.scss from /host_sync to /app_sync
+[2019-02-05 18:59:33 +0100] Sync Log:  [END] Updating file resources/sass/app.scss
+[2019-02-05 18:59:33 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:59:32.49 on 05 Feb 2019
+[2019-02-05 18:59:33 +0100] Sync Log:  Synchronization complete at 18:59:32  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:59:43 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:59:42.32 on 05 Feb 2019
+[2019-02-05 18:59:43 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:59:43 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:59:43 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:59:43 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:59:43 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:59:42.32 on 05 Feb 2019
+[2019-02-05 18:59:43 +0100] Sync Log:  Synchronization complete at 18:59:42  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:59:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:59:55.65 on 05 Feb 2019
+[2019-02-05 18:59:56 +0100] Sync Log:  [BGN] Updating file public/css/app.css from /app_sync to /host_sync
+[2019-02-05 18:59:56 +0100] Sync Log:  [END] Updating file public/css/app.css
+[2019-02-05 18:59:56 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 18:59:56 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 18:59:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:59:55.78 on 05 Feb 2019
+[2019-02-05 18:59:56 +0100] Sync Log:  Synchronization complete at 18:59:55  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 18:59:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:59:56.87 on 05 Feb 2019
+[2019-02-05 18:59:57 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 18:59:57 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 18:59:57 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 18:59:57 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 18:59:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:59:56.88 on 05 Feb 2019
+[2019-02-05 18:59:57 +0100] Sync Log:  Synchronization complete at 18:59:56  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:00:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:00:04.82 on 05 Feb 2019
+[2019-02-05 19:00:05 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:00:05 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:00:05 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:00:05 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:00:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:00:04.83 on 05 Feb 2019
+[2019-02-05 19:00:05 +0100] Sync Log:  Synchronization complete at 19:00:04  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:00:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:00:17.17 on 05 Feb 2019
+[2019-02-05 19:00:17 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:00:17 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:00:17 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:00:17 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:00:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:00:17.17 on 05 Feb 2019
+[2019-02-05 19:00:18 +0100] Sync Log:  Synchronization complete at 19:00:17  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:00:25 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:00:24.70 on 05 Feb 2019
+[2019-02-05 19:00:25 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/ce6a57ab306db16e718a204830fe4737.json.gz from /app_sync to /host_sync
+[2019-02-05 19:00:25 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/ce6a57ab306db16e718a204830fe4737.json.gz
+[2019-02-05 19:00:25 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:00:24.71 on 05 Feb 2019
+[2019-02-05 19:00:25 +0100] Sync Log:  Synchronization complete at 19:00:24  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:00:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:00:32.12 on 05 Feb 2019
+[2019-02-05 19:00:32 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:00:33 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:00:33 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:00:32.26 on 05 Feb 2019
+[2019-02-05 19:00:33 +0100] Sync Log:  Synchronization complete at 19:00:32  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:15:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:15:56.73 on 05 Feb 2019
+[2019-02-05 19:15:57 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:15:57 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:15:57 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:15:56.73 on 05 Feb 2019
+[2019-02-05 19:15:57 +0100] Sync Log:  Synchronization complete at 19:15:56  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:16:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:16:09.45 on 05 Feb 2019
+[2019-02-05 19:16:10 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:16:10 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:16:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:16:09.45 on 05 Feb 2019
+[2019-02-05 19:16:10 +0100] Sync Log:  Synchronization complete at 19:16:09  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:16:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:16:21.92 on 05 Feb 2019
+[2019-02-05 19:16:22 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:16:22 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:16:22 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:16:22 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:16:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:16:21.92 on 05 Feb 2019
+[2019-02-05 19:16:22 +0100] Sync Log:  Synchronization complete at 19:16:21  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:16:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:16:48.88 on 05 Feb 2019
+[2019-02-05 19:16:49 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:16:49 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:16:49 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:16:49 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:16:49 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:16:48.89 on 05 Feb 2019
+[2019-02-05 19:16:49 +0100] Sync Log:  Synchronization complete at 19:16:48  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:17:08 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:17:07.90 on 05 Feb 2019
+[2019-02-05 19:17:08 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:17:08 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:17:08 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:17:08 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:17:08 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:17:07.93 on 05 Feb 2019
+[2019-02-05 19:17:08 +0100] Sync Log:  Synchronization complete at 19:17:07  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:17:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:17:16.34 on 05 Feb 2019
+[2019-02-05 19:17:17 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:17:17 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:17:17 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:17:17 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:17:17 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:17:16.35 on 05 Feb 2019
+[2019-02-05 19:17:17 +0100] Sync Log:  Synchronization complete at 19:17:16  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:17:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:17:27.58 on 05 Feb 2019
+[2019-02-05 19:17:28 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:17:28 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:17:28 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:17:28 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:17:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:17:27.59 on 05 Feb 2019
+[2019-02-05 19:17:28 +0100] Sync Log:  Synchronization complete at 19:17:27  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:17:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:17:37.02 on 05 Feb 2019
+[2019-02-05 19:17:37 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:17:37 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:17:37 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:17:37 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:17:37 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:17:37.03 on 05 Feb 2019
+[2019-02-05 19:17:37 +0100] Sync Log:  Synchronization complete at 19:17:37  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:17:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:17:43.55 on 05 Feb 2019
+[2019-02-05 19:17:44 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:17:44 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:17:44 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:17:44 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:17:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:17:43.56 on 05 Feb 2019
+[2019-02-05 19:17:44 +0100] Sync Log:  Synchronization complete at 19:17:43  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:17:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:17:51.70 on 05 Feb 2019
+[2019-02-05 19:17:52 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/858a0fa00fb291abe08488ff4971856b.json.gz from /app_sync to /host_sync
+[2019-02-05 19:17:52 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/858a0fa00fb291abe08488ff4971856b.json.gz
+[2019-02-05 19:17:52 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:17:51.71 on 05 Feb 2019
+[2019-02-05 19:17:52 +0100] Sync Log:  Synchronization complete at 19:17:51  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:17:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:17:57.61 on 05 Feb 2019
+[2019-02-05 19:17:58 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:17:58 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:17:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:17:57.69 on 05 Feb 2019
+[2019-02-05 19:17:58 +0100] Sync Log:  Synchronization complete at 19:17:57  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:18:53 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:18:53.13 on 05 Feb 2019
+[2019-02-05 19:18:53 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:18:53 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:18:53 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:18:53 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:18:53 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:18:53.14 on 05 Feb 2019
+[2019-02-05 19:18:54 +0100] Sync Log:  Synchronization complete at 19:18:53  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:19:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:19:00.47 on 05 Feb 2019
+[2019-02-05 19:19:01 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/087cf6ad71832ed26b371e609ba6afea.json.gz from /app_sync to /host_sync
+[2019-02-05 19:19:01 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/087cf6ad71832ed26b371e609ba6afea.json.gz
+[2019-02-05 19:19:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:19:00.50 on 05 Feb 2019
+[2019-02-05 19:19:01 +0100] Sync Log:  Synchronization complete at 19:19:00  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:19:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:19:06.08 on 05 Feb 2019
+[2019-02-05 19:19:06 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:19:06 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:19:06 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:19:06.18 on 05 Feb 2019
+[2019-02-05 19:19:07 +0100] Sync Log:  Synchronization complete at 19:19:06  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:20:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:20:00.28 on 05 Feb 2019
+[2019-02-05 19:20:01 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:20:01 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:20:01 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:20:01 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:20:01 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:20:00.29 on 05 Feb 2019
+[2019-02-05 19:20:01 +0100] Sync Log:  Synchronization complete at 19:20:00  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:20:45 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:20:44.97 on 05 Feb 2019
+[2019-02-05 19:20:45 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:20:45 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:20:45 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:20:45 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:20:45 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:20:44.98 on 05 Feb 2019
+[2019-02-05 19:20:45 +0100] Sync Log:  Synchronization complete at 19:20:45  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:20:53 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:20:52.97 on 05 Feb 2019
+[2019-02-05 19:20:53 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:20:53 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:20:53 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:20:53 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:20:53 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:20:52.98 on 05 Feb 2019
+[2019-02-05 19:20:53 +0100] Sync Log:  Synchronization complete at 19:20:53  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:20:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:20:57.45 on 05 Feb 2019
+[2019-02-05 19:20:58 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:20:58 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:20:58 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:20:58 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:20:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:20:57.47 on 05 Feb 2019
+[2019-02-05 19:20:58 +0100] Sync Log:  Synchronization complete at 19:20:57  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:21:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:21:04.56 on 05 Feb 2019
+[2019-02-05 19:21:05 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/4cd89c3ff9c18310eefd1176937b62e6.json.gz from /app_sync to /host_sync
+[2019-02-05 19:21:05 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/4cd89c3ff9c18310eefd1176937b62e6.json.gz
+[2019-02-05 19:21:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:21:04.56 on 05 Feb 2019
+[2019-02-05 19:21:05 +0100] Sync Log:  Synchronization complete at 19:21:04  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:21:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:21:10.52 on 05 Feb 2019
+[2019-02-05 19:21:11 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:21:11 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:21:11 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:21:10.60 on 05 Feb 2019
+[2019-02-05 19:21:11 +0100] Sync Log:  Synchronization complete at 19:21:10  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:21:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:21:39.90 on 05 Feb 2019
+[2019-02-05 19:21:40 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:21:40 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:21:40 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:21:40 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:21:40 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:21:39.91 on 05 Feb 2019
+[2019-02-05 19:21:40 +0100] Sync Log:  Synchronization complete at 19:21:39  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:21:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:21:46.60 on 05 Feb 2019
+[2019-02-05 19:21:47 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/0daa30a2a41296ad43d26a647b215f3e.json.gz from /app_sync to /host_sync
+[2019-02-05 19:21:47 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/0daa30a2a41296ad43d26a647b215f3e.json.gz
+[2019-02-05 19:21:47 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:21:46.61 on 05 Feb 2019
+[2019-02-05 19:21:47 +0100] Sync Log:  Synchronization complete at 19:21:46  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:21:53 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:21:52.29 on 05 Feb 2019
+[2019-02-05 19:21:53 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:21:53 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:21:53 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:21:52.36 on 05 Feb 2019
+[2019-02-05 19:21:53 +0100] Sync Log:  Synchronization complete at 19:21:52  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:22:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:22:03.83 on 05 Feb 2019
+[2019-02-05 19:22:04 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:22:04 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:22:04 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:22:04 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:22:04 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:22:03.84 on 05 Feb 2019
+[2019-02-05 19:22:04 +0100] Sync Log:  Synchronization complete at 19:22:03  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:34:43 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:34:42.90 on 05 Feb 2019
+[2019-02-05 19:34:43 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:34:43 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:34:43 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:34:43 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:34:43 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:34:42.91 on 05 Feb 2019
+[2019-02-05 19:34:43 +0100] Sync Log:  Synchronization complete at 19:34:42  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:34:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:34:58.90 on 05 Feb 2019
+[2019-02-05 19:34:59 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:34:59 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:34:59 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:34:59 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:34:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:34:58.91 on 05 Feb 2019
+[2019-02-05 19:34:59 +0100] Sync Log:  Synchronization complete at 19:34:58  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:35:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:35:12.29 on 05 Feb 2019
+[2019-02-05 19:35:12 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:35:12 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:35:12 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:35:12 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:35:12 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:35:12.30 on 05 Feb 2019
+[2019-02-05 19:35:12 +0100] Sync Log:  Synchronization complete at 19:35:12  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:35:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:35:17.93 on 05 Feb 2019
+[2019-02-05 19:35:18 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:35:18 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:35:18 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:35:18 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:35:18 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:35:17.93 on 05 Feb 2019
+[2019-02-05 19:35:18 +0100] Sync Log:  Synchronization complete at 19:35:17  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:35:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:35:32.19 on 05 Feb 2019
+[2019-02-05 19:35:32 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:35:32 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:35:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:35:32.21 on 05 Feb 2019
+[2019-02-05 19:35:32 +0100] Sync Log:  Synchronization complete at 19:35:32  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:35:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:35:50.04 on 05 Feb 2019
+[2019-02-05 19:35:50 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:35:50 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:35:50 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:35:50.24 on 05 Feb 2019
+[2019-02-05 19:35:50 +0100] Sync Log:  Synchronization complete at 19:35:50  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:36:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:36:16.04 on 05 Feb 2019
+[2019-02-05 19:36:16 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:36:16 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:36:16 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:36:16 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:36:16 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:36:16.07 on 05 Feb 2019
+[2019-02-05 19:36:16 +0100] Sync Log:  Synchronization complete at 19:36:16  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:36:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:36:23.12 on 05 Feb 2019
+[2019-02-05 19:36:23 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/41e569b94bb1eea2064c1444726f5adb.json.gz from /app_sync to /host_sync
+[2019-02-05 19:36:23 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/41e569b94bb1eea2064c1444726f5adb.json.gz
+[2019-02-05 19:36:23 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:36:23.13 on 05 Feb 2019
+[2019-02-05 19:36:23 +0100] Sync Log:  Synchronization complete at 19:36:23  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:36:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:36:28.83 on 05 Feb 2019
+[2019-02-05 19:36:29 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:36:29 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:36:29 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:36:28.93 on 05 Feb 2019
+[2019-02-05 19:36:29 +0100] Sync Log:  Synchronization complete at 19:36:28  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:41:20 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:41:20.50 on 05 Feb 2019
+[2019-02-05 19:41:20 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:41:20 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:41:20 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:41:20 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:41:20 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:41:20.51 on 05 Feb 2019
+[2019-02-05 19:41:20 +0100] Sync Log:  Synchronization complete at 19:41:20  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:41:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:41:23.78 on 05 Feb 2019
+[2019-02-05 19:41:24 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:41:24 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:41:24 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:41:24 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:41:24 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:41:23.78 on 05 Feb 2019
+[2019-02-05 19:41:24 +0100] Sync Log:  Synchronization complete at 19:41:23  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:41:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:41:30.10 on 05 Feb 2019
+[2019-02-05 19:41:30 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:41:30 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:41:30 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:41:30 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:41:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:41:30.10 on 05 Feb 2019
+[2019-02-05 19:41:30 +0100] Sync Log:  Synchronization complete at 19:41:30  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:41:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:41:32.22 on 05 Feb 2019
+[2019-02-05 19:41:32 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:41:32 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:41:32 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:41:32 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:41:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:41:32.22 on 05 Feb 2019
+[2019-02-05 19:41:32 +0100] Sync Log:  Synchronization complete at 19:41:32  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:41:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:41:46.47 on 05 Feb 2019
+[2019-02-05 19:41:46 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:41:46 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:41:46 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:41:46.55 on 05 Feb 2019
+[2019-02-05 19:41:47 +0100] Sync Log:  Synchronization complete at 19:41:46  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:42:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:42:29.61 on 05 Feb 2019
+[2019-02-05 19:42:30 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:42:30 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:42:30 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:42:29.62 on 05 Feb 2019
+[2019-02-05 19:42:30 +0100] Sync Log:  Synchronization complete at 19:42:29  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:42:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:42:36.07 on 05 Feb 2019
+[2019-02-05 19:42:36 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:42:36 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:42:36 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:42:36.07 on 05 Feb 2019
+[2019-02-05 19:42:36 +0100] Sync Log:  Synchronization complete at 19:42:36  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:42:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:42:58.15 on 05 Feb 2019
+[2019-02-05 19:42:58 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:42:58 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:42:58 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:42:58 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:42:58 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:42:58.16 on 05 Feb 2019
+[2019-02-05 19:42:58 +0100] Sync Log:  Synchronization complete at 19:42:58  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:43:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:04.79 on 05 Feb 2019
+[2019-02-05 19:43:05 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/1d0ff65d50dc39abae7b0705d160c147.json.gz from /app_sync to /host_sync
+[2019-02-05 19:43:05 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/1d0ff65d50dc39abae7b0705d160c147.json.gz
+[2019-02-05 19:43:05 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:04.80 on 05 Feb 2019
+[2019-02-05 19:43:05 +0100] Sync Log:  Synchronization complete at 19:43:04  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:43:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:10.14 on 05 Feb 2019
+[2019-02-05 19:43:10 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:43:10 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:43:10 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:10.23 on 05 Feb 2019
+[2019-02-05 19:43:10 +0100] Sync Log:  Synchronization complete at 19:43:10  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:44:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:19.61 on 05 Feb 2019
+[2019-02-05 19:44:19 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:44:19 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:44:19 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:44:19 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:44:19 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:19.62 on 05 Feb 2019
+[2019-02-05 19:44:20 +0100] Sync Log:  Synchronization complete at 19:44:19  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:44:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:27.08 on 05 Feb 2019
+[2019-02-05 19:44:27 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:44:27 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:44:27 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:44:27 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:44:27 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:27.09 on 05 Feb 2019
+[2019-02-05 19:44:27 +0100] Sync Log:  Synchronization complete at 19:44:27  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:44:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:31.74 on 05 Feb 2019
+[2019-02-05 19:44:32 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:44:32 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:44:32 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:44:32 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:44:32 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:31.74 on 05 Feb 2019
+[2019-02-05 19:44:32 +0100] Sync Log:  Synchronization complete at 19:44:31  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:44:39 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:39.31 on 05 Feb 2019
+[2019-02-05 19:44:39 +0100] Sync Log:  [BGN] Copying node_modules/.cache/babel-loader/ede273219423017e6e0aea3c6d088ae3.json.gz from /app_sync to /host_sync
+[2019-02-05 19:44:39 +0100] Sync Log:  [END] Copying node_modules/.cache/babel-loader/ede273219423017e6e0aea3c6d088ae3.json.gz
+[2019-02-05 19:44:39 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:39.32 on 05 Feb 2019
+[2019-02-05 19:44:39 +0100] Sync Log:  Synchronization complete at 19:44:39  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:44:45 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:44.86 on 05 Feb 2019
+[2019-02-05 19:44:45 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:44:45 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:44:45 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:44.92 on 05 Feb 2019
+[2019-02-05 19:44:45 +0100] Sync Log:  Synchronization complete at 19:44:44  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:45:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:45:07.16 on 05 Feb 2019
+[2019-02-05 19:45:07 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:45:07 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:45:07 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:45:07 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:45:07 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:45:07.17 on 05 Feb 2019
+[2019-02-05 19:45:07 +0100] Sync Log:  Synchronization complete at 19:45:07  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:45:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:45:21.75 on 05 Feb 2019
+[2019-02-05 19:45:22 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:45:22 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:45:22 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:45:21.79 on 05 Feb 2019
+[2019-02-05 19:45:22 +0100] Sync Log:  Synchronization complete at 19:45:21  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:46:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:00.41 on 05 Feb 2019
+[2019-02-05 19:46:00 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:46:00 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:46:00 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:46:00 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:46:00 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:00.42 on 05 Feb 2019
+[2019-02-05 19:46:00 +0100] Sync Log:  Synchronization complete at 19:46:00  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:46:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:02.52 on 05 Feb 2019
+[2019-02-05 19:46:02 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:46:02 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:46:02 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:46:02 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:46:02 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:02.53 on 05 Feb 2019
+[2019-02-05 19:46:02 +0100] Sync Log:  Synchronization complete at 19:46:02  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:46:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:09.14 on 05 Feb 2019
+[2019-02-05 19:46:09 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:46:09 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:46:09 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:46:09 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:46:09 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:09.14 on 05 Feb 2019
+[2019-02-05 19:46:09 +0100] Sync Log:  Synchronization complete at 19:46:09  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:46:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:13.23 on 05 Feb 2019
+[2019-02-05 19:46:13 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:46:13 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:46:13 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:46:13 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:46:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:13.25 on 05 Feb 2019
+[2019-02-05 19:46:13 +0100] Sync Log:  Synchronization complete at 19:46:13  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:46:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:28.22 on 05 Feb 2019
+[2019-02-05 19:46:28 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:46:28 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:46:28 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:28.32 on 05 Feb 2019
+[2019-02-05 19:46:28 +0100] Sync Log:  Synchronization complete at 19:46:28  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:46:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:56.57 on 05 Feb 2019
+[2019-02-05 19:46:56 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:46:56 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:46:56 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:46:56 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:46:56 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:56.58 on 05 Feb 2019
+[2019-02-05 19:46:57 +0100] Sync Log:  Synchronization complete at 19:46:56  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:46:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:46:58.67 on 05 Feb 2019
+[2019-02-05 19:46:59 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:46:59 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:46:59 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:46:59 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:46:59 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:46:58.67 on 05 Feb 2019
+[2019-02-05 19:46:59 +0100] Sync Log:  Synchronization complete at 19:46:58  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:47:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:47:12.84 on 05 Feb 2019
+[2019-02-05 19:47:13 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:47:13 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:47:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:47:12.90 on 05 Feb 2019
+[2019-02-05 19:47:13 +0100] Sync Log:  Synchronization complete at 19:47:12  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:48:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:48:44.20 on 05 Feb 2019
+[2019-02-05 19:48:44 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:48:44 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:48:44 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:48:44.20 on 05 Feb 2019
+[2019-02-05 19:48:44 +0100] Sync Log:  Synchronization complete at 19:48:44  (1 item transferred, 0 skipped, 0 failed)
+[2019-02-05 19:49:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:12.77 on 05 Feb 2019
+[2019-02-05 19:49:13 +0100] Sync Log:  [BGN] Updating file .idea/workspace.xml from /host_sync to /app_sync
+[2019-02-05 19:49:13 +0100] Sync Log:  [END] Updating file .idea/workspace.xml
+[2019-02-05 19:49:13 +0100] Sync Log:  [BGN] Updating file resources/js/components/App.vue from /host_sync to /app_sync
+[2019-02-05 19:49:13 +0100] Sync Log:  [END] Updating file resources/js/components/App.vue
+[2019-02-05 19:49:13 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:12.78 on 05 Feb 2019
+[2019-02-05 19:49:13 +0100] Sync Log:  Synchronization complete at 19:49:12  (2 items transferred, 0 skipped, 0 failed)
+[2019-02-05 19:49:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:25.94 on 05 Feb 2019
+[2019-02-05 19:49:26 +0100] Sync Log:  [BGN] Updating file public/js/app.js from /app_sync to /host_sync
+[2019-02-05 19:49:26 +0100] Sync Log:  [END] Updating file public/js/app.js
+[2019-02-05 19:49:26 +0100] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:26.04 on 05 Feb 2019
+[2019-02-05 19:49:26 +0100] Sync Log:  Synchronization complete at 19:49:26  (1 item transferred, 0 skipped, 0 failed)

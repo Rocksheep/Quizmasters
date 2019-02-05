@@ -45,7 +45,7 @@ class UserJoinedQuiz implements ShouldBroadcast
 
     public function broadcastAs()
     {
-        return 'quizzes.test';
+        return 'quizzes.userJoined';
     }
 
 }
