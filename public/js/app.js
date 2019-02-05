@@ -1879,7 +1879,9 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
-    Echo.channel('quizzes').listen('userJoined', function (event) {
+    Echo.channel('rooms').listen('.rooms.userJoined', function (event) {
+      console.log(event);
+
       _this.players.push({
         name: event.username
       });

@@ -2,7 +2,7 @@
 
 namespace App\Events;
 
-use App\Quiz;
+use App\Room;
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Broadcasting\PrivateChannel;
@@ -11,26 +11,26 @@ use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
-class UserJoinedQuiz implements ShouldBroadcast
+class UserJoinedRoom implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
     /** @var string  */
     public $username;
 
-    /** @var Quiz  */
-    public $quiz;
+    /** @var Room  */
+    public $room;
 
     /**
      * Create a new event instance.
      *
      * @param string $username
-     * @param Quiz $quiz
+     * @param Room $room
      */
-    public function __construct($username, Quiz $quiz)
+    public function __construcst($username, Room $room)
     {
         $this->username = $username;
-        $this->quiz = $quiz;
+        $this->room = $room;
     }
 
     /**
@@ -40,12 +40,12 @@ class UserJoinedQuiz implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('quizzes');
+        return new Channel('rooms');
     }
 
     public function broadcastAs()
     {
-        return 'quizzes.userJoined';
+        return 'rooms.userJoined';
     }
 
 }

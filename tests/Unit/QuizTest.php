@@ -2,8 +2,8 @@
 
 namespace Tests\Unit;
 
-use App\Events\UserJoinedQuiz;
 use App\Quiz;
+use App\Room;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -13,27 +13,25 @@ class QuizTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function it_returns_its_own_url()
+    public function it_can_create_a_room()
     {
-        $quiz = new Quiz(['join_code' => 'randomcode']);
-        $this->assertEquals(url('/randomcode'), $quiz->url());
+        $quiz = factory(Quiz::class)->create();
+        $room = $quiz->createRoom();
+
+        $this->assertInstanceOf(Room::class, $room);
+        $this->assertNotNull($room->join_code);
     }
 
     /** @test */
-    public function a_quiz_can_be_found_by_using_the_join_code()
+    public function it_can_have_multiple_rooms()
     {
-        $storedQuiz = factory(Quiz::class)->create();
-        $foundQuiz = Quiz::findByJoinCodeOrFail($storedQuiz->join_code);
+        $quiz = factory(Quiz::class)->create();
+        $this->assertEquals(0, $quiz->rooms()->count());
 
-        $this->assertEquals($storedQuiz->id, $foundQuiz->id);
-    }
+        $quiz->createRoom();
+        $this->assertEquals(1, $quiz->rooms()->count());
 
-    /**
-     * @test
-     * @expectedException Illuminate\Database\Eloquent\ModelNotFoundException
-     */
-    public function it_throws_an_exception_when_the_quiz_cannot_be_found()
-    {
-        Quiz::findByJoinCodeOrFail('invalid_code');
+        $quiz->createRoom();
+        $this->assertEquals(2, $quiz->rooms()->count());
     }
 }

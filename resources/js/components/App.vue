@@ -34,8 +34,9 @@
             }
         },
         mounted() {
-            Echo.channel('quizzes')
-                .listen('userJoined', (event) => {
+            Echo.channel('rooms')
+                .listen('.rooms.userJoined', (event) => {
+                    console.log(event);
                     this.players.push({
                         name: event.username
                     });

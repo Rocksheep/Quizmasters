@@ -9,15 +9,17 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Quiz extends Model
 {
-    protected $fillable = ['join_code'];
-
-    public static function findByJoinCodeOrFail($code)
+    public function rooms()
     {
-        return self::where('join_code', $code)->firstOrFail();
+        return $this->hasMany(Room::class);
     }
 
-    public function url()
+    public function createRoom()
     {
-        return url("/{$this->join_code}");
+        do {
+            $joinCode = str_random(8);
+        } while (Room::where('join_code', $joinCode)->first() !== null);
+
+        return $this->rooms()->create(['join_code' => $joinCode]);
     }
 }
