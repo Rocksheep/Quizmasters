@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -87,7 +89,11 @@
                         <li>No quizzes available</li>
                     @endforelse
                 </ul>
+
+                <div id="app"></div>
             </div>
         </div>
+
+        <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>

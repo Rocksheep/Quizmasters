@@ -16,10 +16,10 @@ class UserJoinedQuiz implements ShouldBroadcast
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
     /** @var string  */
-    private $username;
+    public $username;
 
     /** @var Quiz  */
-    private $quiz;
+    public $quiz;
 
     /**
      * Create a new event instance.
@@ -40,6 +40,12 @@ class UserJoinedQuiz implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new PrivateChannel('quiz.' . $this->quiz->join_code);
+        return new Channel('quizzes');
     }
+
+    public function broadcastAs()
+    {
+        return 'quizzes.test';
+    }
+
 }

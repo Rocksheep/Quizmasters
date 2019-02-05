@@ -9,6 +9,28 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import Echo from 'laravel-echo';
+window.io = require('socket.io-client');
+
+window.Echo = new Echo({
+    broadcaster: 'socket.io',
+    host: window.location.hostname + ':6001'
+});
+
+window.Echo.channel('quizzes')
+    .listen('UserJoinedQuiz', (e) => {
+        console.log(e);
+    })
+    .listen('App\\Events\\UserJoinedQuiz', (e) => {
+        console.log(e);
+    })
+    .listen('quizzes.test', (e) => {
+        console.log(e);
+    })
+    .listen('.quizzes.test', (e) => {
+        console.log(e);
+    });
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
