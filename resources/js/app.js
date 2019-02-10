@@ -7,7 +7,10 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+
+Vue.use(VueRouter);
 
 import Echo from 'laravel-echo';
 window.io = require('socket.io-client');
@@ -28,8 +31,21 @@ window.Echo = new Echo({
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('app', require('./components/App.vue').default);
+import App from './components/App';
+import Quiz from './components/Quiz';
+import NotFound from './components/NotFound';
+
+const routes = [
+    { path: '/', component: App },
+    { path: '/room/:joinCode', component: Quiz },
+    { path: '/404', component: NotFound },
+    { path: '*', redirect: '/404'}
+];
+
+const router = new VueRouter({
+    mode: 'history',
+    routes: routes
+});
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -38,5 +54,5 @@ Vue.component('app', require('./components/App.vue').default);
  */
 
 const app = new Vue({
-    el: '#app'
-});
+    router
+}).$mount('#app');

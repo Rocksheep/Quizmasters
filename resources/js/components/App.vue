@@ -1,7 +1,7 @@
 <template>
     <div class="d-flex justify-content-center align-content-center align-items-center" style="height:100%;">
         <div class="card" style="width: 30rem;">
-            <img src="img/join.png" alt="Quizmaster" class="card-img-top">
+            <img src="/img/join.png" alt="Quizmaster" class="card-img-top">
             <div class="card-body">
                 <h1 class="card-title">Welcome to QUIZMASTER</h1>
                 <p class="card-text">Grab a seat and get ready to answer our mind blowing questions!</p>
@@ -18,9 +18,6 @@
                 </form>
             </div>
         </div>
-        <ul>
-            <li v-for="player in players">{{ player.name }}</li>
-        </ul>
     </div>
 </template>
 
@@ -34,17 +31,12 @@
             }
         },
         mounted() {
-            Echo.channel('rooms')
-                .listen('.rooms.userJoined', (event) => {
-                    console.log(event);
-                    this.players.push({
-                        name: event.username
-                    });
-                });
+
         },
         methods: {
             joinGame: function() {
                 console.log('Joining with code: ', this.joinCode);
+                this.$router.push('/room/'+this.joinCode);
                 this.joinCode = '';
             },
             createGame: function() {

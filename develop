@@ -25,7 +25,7 @@ if [ $# -gt 0 ]; then
             ./vendor/bin/phpunit "$@"
     elif [ "$1" == "npm" ]; then
         shift 1; #shift the commands 1 up. So `artisan` will get shifted off
-        docker-compose run \
+        docker-compose run --rm \
             node \
             npm "$@"
     else

@@ -11,10 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    $quizzes = \App\Quiz::all();
-    return view('welcome', compact('quizzes'));
-});
-
 Route::post('/rooms', 'RoomController@store')->name('room.create');
 Route::post('/rooms/{joinCode}', 'RoomController@join')->name('room.join');
+
+Route::get('/{any}', function() {
+    return view('welcome');
+})->where('any', '.*');
